@@ -1,0 +1,4781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#0a0014" />
+<title>Kalki-Intelligence × Agnes — Universal Growth Proposal 2026 | SEO · AEO · GEO · Web · AI · Ads</title>
+<meta name="description" content="Enterprise SEO, AEO, GEO, Web Development, AI Bot, and Paid Ads systems. Powered by Agnes — our AI strategist. ROI-driven. Proven. Engineered for the AI-search era." />
+<meta name="author" content="Kalki-Intelligence" />
+<meta name="keywords" content="SEO, AEO, GEO, Web Development, AI Bot, Google Ads, Kolkata, India, Global, AI Search, ChatGPT optimization" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Orbitron:wght@600;700;800;900&display=swap" rel="stylesheet" />
+
+<style>
+/* ==========================================================================
+   KALKI-INTELLIGENCE · UNIVERSAL PROPOSAL v7 · POWERED BY AGNES
+   A complete, self-contained, AI-assisted proposal engine
+   ========================================================================== */
+
+/* ==========================================================================
+   01 · DESIGN TOKENS
+   ========================================================================== */
+:root {
+  --bg-0: #05000e;
+  --bg-1: #0a0014;
+  --bg-2: #100020;
+  --bg-3: #16002b;
+  --bg-4: #1f0038;
+  --bg-5: #28004a;
+
+  --pink: #ff2e97;
+  --pink-bright: #ff6ec7;
+  --pink-soft: #ffb3e0;
+  --pink-dark: #cc1077;
+  --pink-glow: rgba(255, 46, 151, 0.35);
+  --pink-faint: rgba(255, 46, 151, 0.10);
+  --pink-ultra: rgba(255, 46, 151, 0.04);
+
+  --cyan: #00f0ff;
+  --cyan-bright: #5cffff;
+  --cyan-soft: #a8f7ff;
+  --cyan-dark: #00b8c4;
+  --cyan-glow: rgba(0, 240, 255, 0.35);
+  --cyan-faint: rgba(0, 240, 255, 0.10);
+  --cyan-ultra: rgba(0, 240, 255, 0.04);
+
+  --magenta: #d900ff;
+  --violet: #8b5cf6;
+  --lime: #39ff14;
+  --amber: #ffb800;
+  --red: #ff3860;
+  --green: #10b981;
+
+  --wa: #25D366;
+  --wa-dark: #128C7E;
+  --wa-glow: rgba(37, 211, 102, 0.45);
+
+  --agnes: #a855f7;
+  --agnes-bright: #c084fc;
+  --agnes-glow: rgba(168, 85, 247, 0.45);
+
+  --text-0: #ffffff;
+  --text-1: #e8e2f5;
+  --text-2: #a89cc4;
+  --text-3: #6b5e8a;
+  --text-4: #3d3358;
+  --text-5: #241f38;
+
+  --border-0: rgba(255, 46, 151, 0.15);
+  --border-1: rgba(0, 240, 255, 0.18);
+  --border-2: rgba(255, 46, 151, 0.35);
+  --border-3: rgba(0, 240, 255, 0.40);
+  --border-agnes: rgba(168, 85, 247, 0.35);
+
+  --font-sans: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+  --font-display: 'Orbitron', 'Space Grotesk', sans-serif;
+
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius: 8px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 100px;
+
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 15px 50px rgba(0, 0, 0, 0.55);
+  --shadow-pink: 0 0 25px var(--pink-glow);
+  --shadow-cyan: 0 0 25px var(--cyan-glow);
+  --shadow-agnes: 0 0 25px var(--agnes-glow);
+
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+
+  --container: 1280px;
+  --nav-h: 68px;
+}
+
+/* ==========================================================================
+   02 · RESET & BASE
+   ========================================================================== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-padding-top: calc(var(--nav-h) + 20px);
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--text-1);
+  background: var(--bg-0);
+  overflow-x: hidden;
+  min-height: 100vh;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body.no-scroll {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+::selection {
+  background: var(--pink);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--pink), var(--cyan));
+  border-radius: 100px;
+  border: 2px solid var(--bg-1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, var(--pink-bright), var(--cyan-bright));
+}
+
+/* Ambient background */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 900px 600px at 12% -5%, rgba(255, 46, 151, 0.18), transparent 60%),
+    radial-gradient(ellipse 900px 600px at 88% 8%, rgba(0, 240, 255, 0.15), transparent 60%),
+    radial-gradient(ellipse 700px 500px at 50% 100%, rgba(217, 0, 255, 0.12), transparent 60%),
+    linear-gradient(180deg, var(--bg-0) 0%, var(--bg-1) 40%, var(--bg-0) 100%);
+  z-index: -2;
+  pointer-events: none;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(0, 240, 255, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 46, 151, 0.045) 1px, transparent 1px);
+  background-size: 60px 60px;
+  -webkit-mask-image: radial-gradient(ellipse 100% 90% at 50% 30%, #000 30%, transparent 85%);
+  mask-image: radial-gradient(ellipse 100% 90% at 50% 30%, #000 30%, transparent 85%);
+  z-index: -1;
+  pointer-events: none;
+  animation: gridShift 25s linear infinite;
+}
+
+@keyframes gridShift {
+  0% { background-position: 0 0, 0 0; }
+  100% { background-position: 60px 60px, 60px 60px; }
+}
+
+.scanlines {
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.15) 0px,
+    rgba(0, 0, 0, 0.15) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  pointer-events: none;
+  z-index: 1000;
+  opacity: 0.28;
+  mix-blend-mode: overlay;
+}
+
+/* ==========================================================================
+   03 · TYPOGRAPHY
+   ========================================================================== */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  color: var(--text-0);
+}
+
+h1 { font-size: clamp(2rem, 5vw, 3.75rem); }
+h2 { font-size: clamp(1.5rem, 3.5vw, 2.5rem); }
+h3 { font-size: clamp(1.15rem, 2vw, 1.5rem); }
+h4 { font-size: 1.05rem; }
+h5 { font-size: 0.95rem; }
+h6 { font-size: 0.85rem; }
+
+p { color: var(--text-2); }
+
+a {
+  color: var(--cyan);
+  text-decoration: none;
+  transition: color 0.2s var(--ease);
+}
+
+a:hover { color: var(--pink-bright); }
+
+.mono { font-family: var(--font-mono); }
+.cyber-pink { color: var(--pink-bright); }
+.cyber-cyan { color: var(--cyan-bright); }
+.cyber-agnes { color: var(--agnes-bright); }
+
+.label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--cyan);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, var(--pink-bright) 0%, var(--cyan-bright) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-agnes {
+  background: linear-gradient(135deg, var(--agnes-bright) 0%, var(--pink-bright) 50%, var(--cyan-bright) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+/* ==========================================================================
+   04 · LAYOUT PRIMITIVES
+   ========================================================================== */
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.section {
+  padding: 90px 0;
+  position: relative;
+}
+
+.section-tight { padding: 60px 0; }
+.section-loose { padding: 120px 0; }
+
+.section-head {
+  max-width: 820px;
+  margin-bottom: 56px;
+}
+
+.section-head.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 24px; }
+.grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+.grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; }
+.grid-5 { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; }
+.grid-6 { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 14px; }
+
+.flex { display: flex; }
+.flex-col { flex-direction: column; }
+.flex-wrap { flex-wrap: wrap; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.justify-between { justify-content: space-between; }
+.gap-8 { gap: 8px; }
+.gap-12 { gap: 12px; }
+.gap-16 { gap: 16px; }
+.gap-24 { gap: 24px; }
+.mt-4 { margin-top: 4px; }
+.mt-8 { margin-top: 8px; }
+.mt-12 { margin-top: 12px; }
+.mt-16 { margin-top: 16px; }
+.mt-24 { margin-top: 24px; }
+.mt-32 { margin-top: 32px; }
+.mb-8 { margin-bottom: 8px; }
+.mb-16 { margin-bottom: 16px; }
+.mb-24 { margin-bottom: 24px; }
+.mb-32 { margin-bottom: 32px; }
+
+/* ==========================================================================
+   05 · SCROLL PROGRESS
+   ========================================================================== */
+.scroll-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--agnes), var(--pink), var(--cyan));
+  z-index: 2000;
+  width: 0%;
+  box-shadow: 0 0 15px var(--pink-glow), 0 0 30px var(--cyan-glow);
+  transition: width 0.1s linear;
+}
+
+/* ==========================================================================
+   06 · NAVIGATION
+   ========================================================================== */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 900;
+  background: rgba(5, 0, 14, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border-0);
+  transition: background 0.3s var(--ease);
+}
+
+.nav.scrolled {
+  background: rgba(5, 0, 14, 0.95);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+.nav-inner {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 24px;
+  height: var(--nav-h);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.05rem;
+  letter-spacing: -0.02em;
+  color: var(--text-0);
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+.brand:hover { color: var(--text-0); text-decoration: none; }
+
+.brand-mark {
+  width: 34px;
+  height: 34px;
+  background: linear-gradient(135deg, var(--pink), var(--cyan));
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 900;
+  color: var(--bg-0);
+  position: relative;
+  box-shadow: 0 0 20px var(--pink-glow);
+  transition: transform 0.3s var(--ease-bounce);
+}
+
+.brand:hover .brand-mark { transform: scale(1.1) rotate(-5deg); }
+
+.brand-mark::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, var(--pink), var(--cyan));
+  z-index: -1;
+  filter: blur(6px);
+  opacity: 0.7;
+}
+
+.nav-links {
+  display: flex;
+  gap: 4px;
+  list-style: none;
+}
+
+.nav-links a {
+  display: block;
+  padding: 8px 12px;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-2);
+  border-radius: var(--radius-sm);
+  transition: all 0.2s var(--ease);
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+
+.nav-links a:hover {
+  color: var(--cyan-bright);
+  background: var(--cyan-faint);
+  border-color: var(--border-1);
+  text-shadow: 0 0 12px var(--cyan-glow);
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-nav-phone {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 8px 14px;
+  color: var(--cyan-bright);
+  border: 1px solid var(--border-1);
+  border-radius: var(--radius-sm);
+  transition: all 0.25s var(--ease);
+  white-space: nowrap;
+}
+
+.btn-nav-phone:hover {
+  color: var(--bg-0);
+  background: var(--cyan);
+  box-shadow: 0 0 25px var(--cyan-glow);
+  text-decoration: none;
+}
+
+.btn-nav-wa {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 9px 16px;
+  background: linear-gradient(135deg, var(--wa), var(--wa-dark));
+  color: #fff;
+  border-radius: var(--radius-sm);
+  transition: all 0.25s var(--ease);
+  white-space: nowrap;
+  box-shadow: 0 0 20px var(--wa-glow);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-nav-wa:hover {
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 0 35px var(--wa-glow);
+  text-decoration: none;
+}
+
+.burger {
+  display: none;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-1);
+  color: var(--cyan);
+  font-size: 1.2rem;
+  cursor: pointer;
+  background: transparent;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s var(--ease);
+}
+
+.burger:hover {
+  background: var(--cyan-faint);
+  color: var(--cyan-bright);
+}
+
+/* ==========================================================================
+   07 · HERO
+   ========================================================================== */
+.hero {
+  padding: 70px 0 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.orb-pink {
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(255, 46, 151, 0.4), transparent 70%);
+  top: -150px;
+  left: -100px;
+  animation: float1 15s ease-in-out infinite;
+}
+
+.orb-cyan {
+  width: 450px;
+  height: 450px;
+  background: radial-gradient(circle, rgba(0, 240, 255, 0.35), transparent 70%);
+  top: 50px;
+  right: -120px;
+  animation: float2 18s ease-in-out infinite;
+}
+
+.orb-agnes {
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(168, 85, 247, 0.35), transparent 70%);
+  bottom: -100px;
+  left: 40%;
+  animation: float3 20s ease-in-out infinite;
+}
+
+@keyframes float1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(60px, -40px) scale(1.1); }
+}
+
+@keyframes float2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-70px, 50px) scale(1.15); }
+}
+
+@keyframes float3 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(50px, -30px) scale(1.08); }
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 48px;
+  align-items: start;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 1000px) {
+  .hero-grid { grid-template-columns: 1fr; gap: 40px; }
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 18px;
+  background: var(--pink-faint);
+  border: 1px solid var(--border-2);
+  border-radius: var(--radius-full);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--pink-bright);
+  margin-bottom: 30px;
+  box-shadow: 0 0 25px var(--pink-glow), inset 0 0 20px rgba(255, 46, 151, 0.05);
+}
+
+.hero-badge .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--lime);
+  box-shadow: 0 0 12px var(--lime);
+  animation: blink 1.8s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; box-shadow: 0 0 12px var(--lime); }
+  50% { opacity: 0.3; box-shadow: 0 0 3px var(--lime); }
+}
+
+.hero h1 {
+  font-size: clamp(2.2rem, 5vw, 3.75rem);
+  margin-bottom: 24px;
+  text-shadow: 0 0 40px rgba(255, 46, 151, 0.25);
+  line-height: 1.1;
+}
+
+.hero-lede {
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  line-height: 1.75;
+  color: var(--text-2);
+  max-width: 62ch;
+  margin-bottom: 32px;
+}
+
+.hero-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 44px;
+}
+
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+  padding-top: 36px;
+  border-top: 1px solid var(--border-0);
+}
+
+.hero-stat {
+  position: relative;
+  padding: 16px 18px;
+  background: linear-gradient(160deg, rgba(255, 46, 151, 0.05), rgba(0, 240, 255, 0.03));
+  border: 1px solid var(--border-0);
+  border-radius: var(--radius);
+  transition: all 0.3s var(--ease);
+}
+
+.hero-stat:hover {
+  border-color: var(--border-2);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(255, 46, 151, 0.15);
+}
+
+.hero-stat::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 2px;
+  background: var(--cyan);
+  box-shadow: 0 0 10px var(--cyan);
+}
+
+.hero-stat::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20px;
+  height: 2px;
+  background: var(--pink);
+  box-shadow: 0 0 10px var(--pink);
+}
+
+.hero-stat-label {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--text-3);
+  margin-bottom: 8px;
+}
+
+.hero-stat-value {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--text-0);
+  line-height: 1;
+  text-shadow: 0 0 20px rgba(255, 46, 151, 0.3);
+}
+
+/* ==========================================================================
+   08 · AGNES CHAT BOT (HERO EMBEDDED)
+   ========================================================================== */
+.agnes-shell {
+  position: relative;
+  background: linear-gradient(160deg, rgba(20, 0, 45, 0.95), rgba(10, 0, 20, 0.92));
+  border: 1px solid var(--border-agnes);
+  border-radius: var(--radius-xl);
+  box-shadow: 0 0 60px rgba(168, 85, 247, 0.25), 0 20px 60px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 620px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.agnes-shell::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--agnes), var(--pink), var(--cyan), var(--agnes));
+  background-size: 300% 100%;
+  animation: gradientSlide 4s linear infinite;
+  z-index: 5;
+}
+
+@keyframes gradientSlide {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 300% 50%; }
+}
+
+.agnes-header {
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-bottom: 1px solid rgba(168, 85, 247, 0.15);
+  background: linear-gradient(180deg, rgba(168, 85, 247, 0.08), transparent);
+  position: relative;
+  z-index: 2;
+}
+
+.agnes-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--agnes), var(--pink));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 1rem;
+  color: #fff;
+  position: relative;
+  box-shadow: 0 0 20px var(--agnes-glow);
+  flex-shrink: 0;
+}
+
+.agnes-avatar::before {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--agnes), var(--pink), var(--cyan));
+  z-index: -1;
+  opacity: 0.7;
+  filter: blur(4px);
+  animation: agnesSpin 8s linear infinite;
+}
+
+@keyframes agnesSpin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.agnes-avatar::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--lime);
+  border: 2px solid var(--bg-2);
+  box-shadow: 0 0 10px var(--lime);
+}
+
+.agnes-id {
+  flex: 1;
+  min-width: 0;
+}
+
+.agnes-name {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--text-0);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  line-height: 1.2;
+}
+
+.agnes-name .tag-agnes {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  background: var(--agnes-glow);
+  color: #fff;
+  border-radius: 100px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.agnes-status {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--lime);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 2px;
+}
+
+.agnes-status::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--lime);
+  box-shadow: 0 0 8px var(--lime);
+  animation: blink 1.8s infinite;
+}
+
+.agnes-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.agnes-icon-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(168, 85, 247, 0.2);
+  color: var(--agnes-bright);
+  font-size: 0.85rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s var(--ease);
+}
+
+.agnes-icon-btn:hover {
+  background: rgba(168, 85, 247, 0.15);
+  color: #fff;
+  border-color: var(--agnes);
+}
+
+.agnes-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  scroll-behavior: smooth;
+  position: relative;
+  z-index: 1;
+}
+
+.agnes-body::-webkit-scrollbar { width: 6px; }
+.agnes-body::-webkit-scrollbar-track { background: transparent; }
+.agnes-body::-webkit-scrollbar-thumb { background: var(--agnes); border-radius: 100px; }
+
+.msg {
+  max-width: 88%;
+  padding: 11px 15px;
+  border-radius: var(--radius-lg);
+  font-size: 0.86rem;
+  line-height: 1.6;
+  word-wrap: break-word;
+  animation: msgIn 0.4s var(--ease);
+  position: relative;
+}
+
+@keyframes msgIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.msg-bot {
+  align-self: flex-start;
+  background: linear-gradient(160deg, rgba(168, 85, 247, 0.15), rgba(255, 46, 151, 0.08));
+  border: 1px solid rgba(168, 85, 247, 0.25);
+  color: var(--text-1);
+  border-top-left-radius: var(--radius-xs);
+}
+
+.msg-user {
+  align-self: flex-end;
+  background: linear-gradient(160deg, rgba(0, 240, 255, 0.15), rgba(92, 255, 255, 0.08));
+  border: 1px solid rgba(0, 240, 255, 0.3);
+  color: var(--text-0);
+  border-top-right-radius: var(--radius-xs);
+}
+
+.msg-bot strong {
+  color: var(--agnes-bright);
+  font-weight: 700;
+}
+
+.msg-bot em {
+  color: var(--cyan-bright);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.msg-bot a {
+  color: var(--cyan-bright);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.msg-bot ul {
+  margin: 8px 0 4px 18px;
+  padding: 0;
+}
+
+.msg-bot li {
+  margin-bottom: 4px;
+  color: var(--text-2);
+}
+
+.msg-bot code {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 1px 6px;
+  border-radius: 4px;
+  color: var(--cyan-bright);
+  border: 1px solid var(--border-1);
+}
+
+.msg-typing {
+  align-self: flex-start;
+  padding: 14px 18px;
+  background: linear-gradient(160deg, rgba(168, 85, 247, 0.15), rgba(255, 46, 151, 0.08));
+  border: 1px solid rgba(168, 85, 247, 0.25);
+  border-radius: var(--radius-lg);
+  border-top-left-radius: var(--radius-xs);
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.typing-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--agnes-bright);
+  box-shadow: 0 0 8px var(--agnes-glow);
+  animation: typingBounce 1.4s infinite ease-in-out;
+}
+
+.typing-dot:nth-child(2) { animation-delay: 0.2s; }
+.typing-dot:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes typingBounce {
+  0%, 60%, 100% { transform: translateY(0); opacity: 0.5; }
+  30% { transform: translateY(-8px); opacity: 1; }
+}
+
+.agnes-suggestions {
+  padding: 12px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  border-top: 1px solid rgba(168, 85, 247, 0.12);
+  background: rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 2;
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+.agnes-suggestions::-webkit-scrollbar { height: 4px; width: 4px; }
+.agnes-suggestions::-webkit-scrollbar-thumb { background: var(--agnes); border-radius: 100px; }
+
+.suggestion-chip {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 5px 11px;
+  background: rgba(168, 85, 247, 0.1);
+  border: 1px solid rgba(168, 85, 247, 0.25);
+  color: var(--agnes-bright);
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: all 0.2s var(--ease);
+  white-space: nowrap;
+}
+
+.suggestion-chip:hover {
+  background: rgba(168, 85, 247, 0.25);
+  color: #fff;
+  border-color: var(--agnes);
+  transform: translateY(-1px);
+}
+
+.agnes-footer {
+  padding: 14px 16px;
+  border-top: 1px solid rgba(168, 85, 247, 0.15);
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+  background: rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 2;
+}
+
+.agnes-input-wrap {
+  flex: 1;
+  position: relative;
+}
+
+.agnes-input {
+  width: 100%;
+  padding: 11px 16px;
+  font-family: var(--font-sans);
+  font-size: 0.86rem;
+  color: var(--text-0);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(168, 85, 247, 0.25);
+  border-radius: var(--radius);
+  outline: none;
+  resize: none;
+  transition: all 0.2s var(--ease);
+  min-height: 42px;
+  max-height: 100px;
+  line-height: 1.4;
+}
+
+.agnes-input:focus {
+  border-color: var(--agnes);
+  background: rgba(168, 85, 247, 0.08);
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.2);
+}
+
+.agnes-input::placeholder {
+  color: var(--text-3);
+}
+
+.agnes-send {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, var(--agnes), var(--pink));
+  border: none;
+  color: #fff;
+  font-size: 1.05rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s var(--ease-bounce);
+  box-shadow: 0 0 20px var(--agnes-glow);
+  flex-shrink: 0;
+}
+
+.agnes-send:hover {
+  transform: scale(1.08) rotate(-8deg);
+  box-shadow: 0 0 35px var(--agnes-glow);
+}
+
+.agnes-send:active {
+  transform: scale(0.95);
+}
+
+/* ==========================================================================
+   09 · BUTTONS
+   ========================================================================== */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 13px 26px;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-radius: var(--radius);
+  transition: all 0.28s var(--ease);
+  cursor: pointer;
+  border: 1px solid transparent;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  text-decoration: none;
+  background: transparent;
+}
+
+.btn:active { transform: scale(0.97); }
+
+.btn-pink {
+  background: linear-gradient(135deg, var(--pink), var(--magenta));
+  color: #fff;
+  box-shadow: 0 0 25px var(--pink-glow);
+}
+
+.btn-pink:hover {
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 0 40px var(--pink-glow), 0 0 80px rgba(217, 0, 255, 0.4);
+  text-decoration: none;
+}
+
+.btn-pink::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.35), transparent);
+  transition: left 0.7s var(--ease);
+}
+
+.btn-pink:hover::after { left: 100%; }
+
+.btn-cyan {
+  background: transparent;
+  color: var(--cyan-bright);
+  border: 1px solid var(--cyan);
+  box-shadow: inset 0 0 15px rgba(0, 240, 255, 0.08), 0 0 18px rgba(0, 240, 255, 0.2);
+}
+
+.btn-cyan:hover {
+  color: var(--bg-0);
+  background: var(--cyan);
+  transform: translateY(-2px);
+  box-shadow: 0 0 35px var(--cyan-glow), 0 0 60px rgba(0, 240, 255, 0.5);
+  text-decoration: none;
+}
+
+.btn-green {
+  background: linear-gradient(135deg, var(--green), var(--lime));
+  color: #021a08;
+  box-shadow: 0 0 25px rgba(57, 255, 20, 0.3);
+}
+
+.btn-green:hover {
+  color: #021a08;
+  transform: translateY(-2px);
+  box-shadow: 0 0 40px rgba(57, 255, 20, 0.5);
+  text-decoration: none;
+}
+
+.btn-wa {
+  background: linear-gradient(135deg, var(--wa), var(--wa-dark));
+  color: #fff;
+  box-shadow: 0 0 25px var(--wa-glow);
+}
+
+.btn-wa:hover {
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 0 45px var(--wa-glow);
+  text-decoration: none;
+}
+
+.btn-wa::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  transition: left 0.7s var(--ease);
+}
+
+.btn-wa:hover::after { left: 100%; }
+
+.btn-agnes {
+  background: linear-gradient(135deg, var(--agnes), var(--pink));
+  color: #fff;
+  box-shadow: 0 0 25px var(--agnes-glow);
+}
+
+.btn-agnes:hover {
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 0 40px var(--agnes-glow);
+  text-decoration: none;
+}
+
+.btn-lg { padding: 16px 32px; font-size: 0.9rem; }
+.btn-sm { padding: 9px 18px; font-size: 0.72rem; }
+.btn-full { width: 100%; }
+
+/* ==========================================================================
+   10 · CARDS
+   ========================================================================== */
+.card {
+  background: linear-gradient(160deg, rgba(16, 0, 32, 0.9), rgba(22, 0, 43, 0.85));
+  border: 1px solid var(--border-0);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.35s var(--ease);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--pink), var(--cyan), transparent);
+  opacity: 0.5;
+}
+
+.card:hover {
+  border-color: var(--border-2);
+  transform: translateY(-5px);
+  box-shadow: 0 15px 50px rgba(255, 46, 151, 0.15), 0 0 0 1px rgba(0, 240, 255, 0.1);
+}
+
+.card-cyan:hover {
+  border-color: var(--border-3);
+  box-shadow: 0 15px 50px rgba(0, 240, 255, 0.15);
+}
+
+.card-agnes {
+  border-color: var(--border-agnes);
+}
+
+.card-agnes::before {
+  background: linear-gradient(90deg, transparent, var(--agnes), var(--pink), transparent);
+}
+
+.card-agnes:hover {
+  border-color: var(--agnes);
+  box-shadow: 0 15px 50px rgba(168, 85, 247, 0.2);
+}
+
+.card-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  position: relative;
+  transition: transform 0.35s var(--ease-bounce);
+}
+
+.card:hover .card-icon {
+  transform: scale(1.1) rotate(-5deg);
+}
+
+.ico-pink {
+  background: linear-gradient(135deg, rgba(255, 46, 151, 0.2), rgba(217, 0, 255, 0.15));
+  border: 1px solid var(--border-2);
+  box-shadow: 0 0 25px rgba(255, 46, 151, 0.2), inset 0 0 20px rgba(255, 46, 151, 0.1);
+}
+
+.ico-cyan {
+  background: linear-gradient(135deg, rgba(0, 240, 255, 0.2), rgba(92, 255, 255, 0.1));
+  border: 1px solid var(--border-3);
+  box-shadow: 0 0 25px rgba(0, 240, 255, 0.2), inset 0 0 20px rgba(0, 240, 255, 0.1);
+}
+
+.ico-green {
+  background: linear-gradient(135deg, rgba(57, 255, 20, 0.15), rgba(16, 185, 129, 0.15));
+  border: 1px solid rgba(57, 255, 20, 0.3);
+  box-shadow: 0 0 25px rgba(57, 255, 20, 0.15);
+}
+
+.ico-amber {
+  background: linear-gradient(135deg, rgba(255, 184, 0, 0.15), rgba(255, 120, 0, 0.12));
+  border: 1px solid rgba(255, 184, 0, 0.3);
+  box-shadow: 0 0 25px rgba(255, 184, 0, 0.15);
+}
+
+.ico-wa {
+  background: linear-gradient(135deg, rgba(37, 211, 102, 0.2), rgba(18, 140, 126, 0.15));
+  border: 1px solid rgba(37, 211, 102, 0.4);
+  box-shadow: 0 0 25px rgba(37, 211, 102, 0.2);
+}
+
+.ico-agnes {
+  background: linear-gradient(135deg, rgba(168, 85, 247, 0.2), rgba(255, 46, 151, 0.15));
+  border: 1px solid var(--border-agnes);
+  box-shadow: 0 0 25px var(--agnes-glow);
+}
+
+.ico-red {
+  background: linear-gradient(135deg, rgba(255, 56, 96, 0.18), rgba(255, 0, 80, 0.12));
+  border: 1px solid rgba(255, 56, 96, 0.3);
+  box-shadow: 0 0 25px rgba(255, 56, 96, 0.2);
+}
+
+/* ==========================================================================
+   11 · TAGS
+   ========================================================================== */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 11px;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-radius: var(--radius-sm);
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+
+.tag-pink { background: var(--pink-faint); color: var(--pink-bright); border-color: var(--border-2); }
+.tag-cyan { background: var(--cyan-faint); color: var(--cyan-bright); border-color: var(--border-1); }
+.tag-green { background: rgba(57, 255, 20, 0.1); color: var(--lime); border-color: rgba(57, 255, 20, 0.3); }
+.tag-amber { background: rgba(255, 184, 0, 0.1); color: var(--amber); border-color: rgba(255, 184, 0, 0.3); }
+.tag-wa { background: rgba(37, 211, 102, 0.12); color: #4ade80; border-color: rgba(37, 211, 102, 0.35); }
+.tag-red { background: rgba(255, 56, 96, 0.1); color: var(--red); border-color: rgba(255, 56, 96, 0.3); }
+.tag-agnes { background: var(--agnes-glow); color: #fff; border-color: var(--border-agnes); }
+
+/* ==========================================================================
+   12 · STAT CARDS
+   ========================================================================== */
+.stat-card {
+  padding: 24px;
+  background: linear-gradient(160deg, rgba(16, 0, 32, 0.9), rgba(22, 0, 43, 0.8));
+  border: 1px solid var(--border-0);
+  border-radius: var(--radius-lg);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s var(--ease);
+}
+
+.stat-card:hover {
+  border-color: var(--border-2);
+  transform: translateY(-3px);
+}
+
+.stat-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background: linear-gradient(90deg, var(--pink), var(--cyan));
+  transition: width 0.6s var(--ease);
+}
+
+.stat-card:hover::after { width: 100%; }
+
+.stat-label {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--text-3);
+  margin-bottom: 12px;
+}
+
+.stat-value {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--text-0);
+  line-height: 1;
+  margin-bottom: 8px;
+  text-shadow: 0 0 30px rgba(255, 46, 151, 0.3);
+}
+
+.stat-value.pink {
+  background: linear-gradient(135deg, var(--pink-bright), var(--magenta));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stat-value.cyan {
+  background: linear-gradient(135deg, var(--cyan-bright), var(--cyan));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stat-value.agnes {
+  background: linear-gradient(135deg, var(--agnes-bright), var(--pink-bright));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stat-sub {
+  font-size: 0.8rem;
+  color: var(--text-3);
+  line-height: 1.5;
+}
+
+/* ==========================================================================
+   13 · METERS
+   ========================================================================== */
+.meter { margin-bottom: 20px; }
+
+.meter-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 8px;
+  gap: 12px;
+}
+
+.meter-label {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-2);
+  letter-spacing: 0.02em;
+}
+
+.meter-value {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-0);
+}
+
+.meter-track {
+  height: 8px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--border-0);
+  border-radius: 100px;
+  overflow: hidden;
+  position: relative;
+}
+
+.meter-fill {
+  height: 100%;
+  width: 0;
+  border-radius: 100px;
+  background: linear-gradient(90deg, var(--pink), var(--cyan));
+  transition: width 1.5s var(--ease);
+  box-shadow: 0 0 15px var(--pink-glow);
+  position: relative;
+}
+
+.meter-fill::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+  animation: shine 2.5s infinite;
+}
+
+@keyframes shine {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.meter-fill.low {
+  background: linear-gradient(90deg, var(--red), var(--amber));
+  box-shadow: 0 0 15px rgba(255, 56, 96, 0.4);
+}
+
+.meter-fill.mid {
+  background: linear-gradient(90deg, var(--amber), var(--lime));
+  box-shadow: 0 0 15px rgba(255, 184, 0, 0.4);
+}
+
+.meter-fill.high {
+  background: linear-gradient(90deg, var(--lime), var(--cyan));
+  box-shadow: 0 0 15px rgba(57, 255, 20, 0.4);
+}
+
+/* ==========================================================================
+   14 · TABS
+   ========================================================================== */
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 32px;
+  justify-content: center;
+}
+
+.tab {
+  padding: 10px 20px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-2);
+  background: rgba(16, 0, 32, 0.7);
+  border: 1px solid var(--border-0);
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: all 0.25s var(--ease);
+  white-space: nowrap;
+}
+
+.tab:hover {
+  color: var(--cyan-bright);
+  border-color: var(--border-1);
+}
+
+.tab.active {
+  color: #fff;
+  background: linear-gradient(135deg, var(--pink), var(--magenta));
+  border-color: transparent;
+  box-shadow: 0 0 25px var(--pink-glow);
+}
+
+.tab-panel {
+  display: none;
+  animation: fadeIn 0.5s var(--ease);
+}
+
+.tab-panel.active { display: block; }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ==========================================================================
+   15 · SERVICE TIER CARDS
+   ========================================================================== */
+.tier-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.tier {
+  background: linear-gradient(160deg, rgba(16, 0, 32, 0.95), rgba(22, 0, 43, 0.85));
+  border: 1px solid var(--border-0);
+  border-radius: var(--radius-lg);
+  padding: 28px 24px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.35s var(--ease);
+}
+
+.tier:hover {
+  border-color: var(--border-2);
+  transform: translateY(-5px);
+  box-shadow: 0 15px 50px rgba(255, 46, 151, 0.15);
+}
+
+.tier.featured {
+  border-color: var(--border-2);
+  box-shadow: 0 0 45px rgba(255, 46, 151, 0.18);
+}
+
+.tier.featured::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--pink), var(--magenta), var(--cyan), var(--pink));
+  background-size: 300% 100%;
+  animation: gradientSlide 4s linear infinite;
+}
+
+.tier-badge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 4px 10px;
+  border-radius: 100px;
+  background: linear-gradient(135deg, var(--pink), var(--magenta));
+  color: #fff;
+}
+
+.tier-name {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--cyan);
+  margin-bottom: 8px;
+}
+
+.tier h3 {
+  font-size: 1.4rem;
+  margin-bottom: 16px;
+}
+
+.tier-price {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--text-0);
+  line-height: 1;
+  margin-bottom: 4px;
+  text-shadow: 0 0 25px rgba(255, 46, 151, 0.3);
+}
+
+.tier-price .cur { font-size: 1.2rem; color: var(--pink-bright); }
+.tier-price .per { font-size: 0.75rem; color: var(--text-3); font-family: var(--font-sans); font-weight: 400; }
+
+.tier-sub {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--text-3);
+  margin-bottom: 20px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgba(255, 46, 151, 0.12);
+  letter-spacing: 0.04em;
+}
+
+.tier-features {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 22px;
+  min-height: 180px;
+}
+
+.tier-features li {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  font-size: 0.82rem;
+  color: var(--text-2);
+  line-height: 1.5;
+}
+
+.tier-features li::before {
+  content: '▹';
+  color: var(--cyan-bright);
+  font-weight: 700;
+  flex-shrink: 0;
+  text-shadow: 0 0 8px var(--cyan-glow);
+}
+
+.tier-cta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* ==========================================================================
+   16 · CASE STUDIES
+   ========================================================================== */
+.case-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 22px;
+}
+
+.case {
+  background: linear-gradient(160deg, rgba(16, 0, 32, 0.92), rgba(22, 0, 43, 0.85));
+  border: 1px solid var(--border-0);
+  border-radius: var(--radius-lg);
+  padding: 26px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.35s var(--ease);
+}
+
+.case:hover {
+  border-color: var(--border-2);
+  transform: translateY(-5px);
+  box-shadow: 0 18px 55px rgba(255, 46, 151, 0.18);
+}
+
+.case::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--cyan), transparent);
+  opacity: 0;
+  transition: opacity 0.3s var(--ease);
+}
+
+.case:hover::before { opacity: 1; }
+
+.case-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.case-cat {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--cyan);
+  padding: 4px 10px;
+  background: var(--cyan-faint);
+  border: 1px solid var(--border-1);
+  border-radius: 100px;
+}
+
+.case-title {
+  font-size: 1.15rem;
+  margin-bottom: 8px;
+  color: var(--text-0);
+}
+
+.case-desc {
+  font-size: 0.85rem;
+  color: var(--text-2);
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+.case-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 46, 151, 0.12);
+}
+
+.case-metric { text-align: left; }
+
+.case-metric-val {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--pink-bright);
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.case-metric-lbl {
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-3);
+}
+
+/* ==========================================================================
+   17 · AUTHORITIES / TRUST
+   ========================================================================== */
+.auth-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.auth {
+  padding: 22px 18px;
+  text-align: center;
+  background: linear-gradient(160deg, rgba(16, 0, 32, 0.85), rgba(10, 0, 20, 0.8));
+  border: 1px solid var(--border-0);
+  border-radius: var(--radius);
+  transition: all 0.3s var(--ease);
+  position: relative;
+  overflow: hidden;
+}
+
+.auth:hover {
+  border-color: var(--border-2);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 35px rgba(255, 46, 151, 0.15);
+}
+
+.auth-icon {
+  width: 52px;
+  height: 52px;
+  margin: 0 auto 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--pink-faint), var(--cyan-faint));
+  border: 1px solid var(--border-2);
+  box-shadow: 0 0 20px rgba(255, 46, 151, 0.15);
+}
+
+.auth-name {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--text-0);
+  margin-bottom: 4px;
+}
+
+.auth-sub {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-3);
+}
+
+/* ==========================================================================
+   18 · ROI CALCULATOR
+   ========================================================================== */
+.roi-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  align-items: start;
+}
+
+@media (max-width: 800px) {
+  .roi-wrap { grid-template-columns: 1fr; }
+}
+
+.roi-inputs {
+  background: linear-gradient(160deg, rgba(16, 0, 32, 0.92), rgba(22, 0, 43, 0.85));
+  border: 1px solid var(--border-0);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+}
+
+.roi-input { margin-bottom: 22px; }
+
+.roi-input label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--cyan);
+  margin-bottom: 10px;
+}
+
+.roi-input input[type=range] {
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--border-0);
+  border-radius: 100px;
+  outline: none;
+  cursor: pointer;
+}
+
+.roi-input input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--pink), var(--cyan));
+  cursor: pointer;
+  box-shadow: 0 0 15px var(--pink-glow);
+  border: 2px solid var(--bg-0);
+}
+
+.roi-input input[type=range]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--pink), var(--cyan));
+  cursor: pointer;
+  box-shadow: 0 0 15px var(--pink-glow);
+  border: 2px solid var(--bg-0);
+}
+
+.roi-input .val {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--pink-bright);
+  float: right;
+}
+
+.roi-output {
+  background: linear-gradient(160deg, rgba(255, 46, 151, 0.08), rgba(0, 240, 255, 0.05));
+  border: 1px solid var(--border-2);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  position: relative;
+  overflow: hidden;
+}
+
+.roi-output::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--pink), var(--cyan), var(--pink));
+  background-size: 200% 100%;
+  animation: gradientSlide 3s linear infinite;
+}
+
+.roi-result { margin-bottom: 20px; }
+
+.roi-result-label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-3);
+  margin-bottom: 6px;
+}
+
+.roi-result-value {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--text-0);
+  line-height: 1;
+  text-shadow: 0 0 25px var(--pink-glow);
+}
+
+.roi-result-value.green {
+  background: linear-gradient(135deg, var(--lime), var(--green));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: none;
+}
+
+.roi-result-value.cyan {
+  background: linear-gradient(135deg, var(--cyan-bright), var(--cyan));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: none;
+}
+
+/* ==========================================================================
+   19 · PRICING
+   ========================================================================== */
+.price-card {
+  background: linear-gradient(160deg, rgba(16, 0, 32, 0.95), rgba(22, 0, 43, 0.9));
+  border: 1px solid var(--border-0);
+  border-radius: var(--radius-xl);
+  padding: 36px 32px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.35s var(--ease);
+}
+
+.price-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--border-2);
+}
+
+.price-card.featured {
+  border-color: var(--border-2);
+  box-shadow: 0 0 60px rgba(255, 46, 151, 0.2);
+}
+
+.price-card.featured::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--pink), var(--magenta), var(--cyan), var(--pink));
+  background-size: 300% 100%;
+  animation: gradientSlide 4s linear infinite;
+}
+
+.price-amount {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  color: var(--text-0);
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin: 18px 0 8px;
+  text-shadow: 0 0 40px rgba(255, 46, 151, 0.4);
+}
+
+.price-amount .cur { font-size: 1.4rem; color: var(--pink-bright); }
+.price-amount .per { font-size: 0.9rem; font-weight: 400; color: var(--text-3); font-family: var(--font-sans); }
+
+.price-period {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-3);
+  padding-bottom: 22px;
+  border-bottom: 1px solid rgba(255, 46, 151, 0.15);
+  margin-bottom: 22px;
+  letter-spacing: 0.05em;
+}
+
+.price-features {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.price-features li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.83rem;
+  color: var(--text-2);
+  line-height: 1.5;
+}
+
+.price-features li::before {
+  content: '▹';
+  color: var(--cyan-bright);
+  font-weight: 700;
+  flex-shrink: 0;
+  text-shadow: 0 0 8px var(--cyan-glow);
+}
+
+/* ==========================================================================
+   20 · TIMELINE
+   ========================================================================== */
+.timeline {
+  position: relative;
+  padding-left: 48px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 8px;
+  bottom: 8px;
+  width: 2px;
+  background: linear-gradient(180deg, var(--pink), var(--magenta), var(--cyan), transparent);
+  box-shadow: 0 0 15px var(--pink-glow);
+}
+
+.tl-item {
+  position: relative;
+  padding-bottom: 38px;
+}
+
+.tl-item:last-child { padding-bottom: 0; }
+
+.tl-dot {
+  position: absolute;
+  left: -48px;
+  top: 4px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--bg-1);
+  border: 2px solid var(--pink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 700;
+  color: var(--pink-bright);
+  box-shadow: 0 0 0 6px var(--bg-0), 0 0 0 7px rgba(255, 46, 151, 0.2), 0 0 25px var(--pink-glow);
+  transition: all 0.3s var(--ease);
+  z-index: 1;
+}
+
+.tl-item:hover .tl-dot {
+  transform: scale(1.15);
+  border-color: var(--cyan);
+  color: var(--cyan-bright);
+  box-shadow: 0 0 0 6px var(--bg-0), 0 0 0 7px rgba(0, 240, 255, 0.3), 0 0 30px var(--cyan-glow);
+}
+
+.tl-phase {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--cyan);
+  margin-bottom: 6px;
+}
+
+.tl-title {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.tl-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.tl-list li {
+  font-size: 0.83rem;
+  color: var(--text-2);
+  padding-left: 20px;
+  position: relative;
+  line-height: 1.55;
+}
+
+.tl-list li::before {
+  content: '▶';
+  position: absolute;
+  left: 0;
+  top: 1px;
+  font-size: 0.55rem;
+  color: var(--pink);
+  text-shadow: 0 0 8px var(--pink-glow);
+}
+
+/* ==========================================================================
+   21 · TESTIMONIALS
+   ========================================================================== */
+.testi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.testi {
+  background: linear-gradient(160deg, rgba(16, 0, 32, 0.92), rgba(22, 0, 43, 0.85));
+  border: 1px solid var(--border-0);
+  border-radius: var(--radius-lg);
+  padding: 26px;
+  position: relative;
+  transition: all 0.3s var(--ease);
+}
+
+.testi:hover {
+  border-color: var(--border-2);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(255, 46, 151, 0.15);
+}
+
+.testi-quote {
+  font-size: 2.5rem;
+  line-height: 1;
+  color: var(--pink-bright);
+  font-family: Georgia, serif;
+  margin-bottom: 8px;
+  text-shadow: 0 0 20px var(--pink-glow);
+}
+
+.testi-text {
+  font-size: 0.9rem;
+  color: var(--text-2);
+  line-height: 1.7;
+  margin-bottom: 18px;
+  font-style: italic;
+}
+
+.testi-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 46, 151, 0.12);
+}
+
+.testi-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1rem;
+  color: var(--bg-0);
+  background: linear-gradient(135deg, var(--pink-bright), var(--cyan-bright));
+  flex-shrink: 0;
+}
+
+.testi-name {
+  font-weight: 700;
+  color: var(--text-0);
+  font-size: 0.88rem;
+}
+
+.testi-role {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--text-3);
+  letter-spacing: 0.04em;
+}
+
+/* ==========================================================================
+   22 · FAQ
+   ========================================================================== */
+.faq {
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  background: linear-gradient(160deg, rgba(16, 0, 32, 0.9), rgba(22, 0, 43, 0.85));
+  border: 1px solid var(--border-0);
+  border-radius: var(--radius);
+  margin-bottom: 12px;
+  overflow: hidden;
+  transition: all 0.3s var(--ease);
+}
+
+.faq-item.open {
+  border-color: var(--border-2);
+  box-shadow: 0 0 30px rgba(255, 46, 151, 0.12);
+}
+
+.faq-q {
+  width: 100%;
+  padding: 20px 24px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  color: var(--text-0);
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-align: left;
+  transition: color 0.2s var(--ease);
+}
+
+.faq-q:hover { color: var(--cyan-bright); }
+
+.faq-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--pink-faint);
+  border: 1px solid var(--border-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--pink-bright);
+  font-weight: 700;
+  font-size: 1rem;
+  flex-shrink: 0;
+  transition: transform 0.3s var(--ease);
+}
+
+.faq-item.open .faq-icon {
+  transform: rotate(45deg);
+  background: var(--pink);
+  color: #fff;
+}
+
+.faq-a {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s var(--ease);
+  padding: 0 24px;
+}
+
+.faq-a-inner {
+  padding-bottom: 22px;
+  font-size: 0.88rem;
+  color: var(--text-2);
+  line-height: 1.7;
+}
+
+.faq-item.open .faq-a { max-height: 500px; }
+
+/* ==========================================================================
+   23 · CONTACT
+   ========================================================================== */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 28px;
+  background: linear-gradient(160deg, rgba(16, 0, 32, 0.95), rgba(22, 0, 43, 0.85));
+  border: 1px solid var(--border-0);
+  border-radius: var(--radius-lg);
+  transition: all 0.35s var(--ease);
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--pink), transparent);
+  opacity: 0;
+  transition: opacity 0.3s var(--ease);
+}
+
+.contact-card:hover {
+  border-color: var(--border-2);
+  transform: translateY(-5px);
+  box-shadow: 0 20px 60px rgba(255, 46, 151, 0.2);
+  text-decoration: none;
+}
+
+.contact-card:hover::before { opacity: 1; }
+
+.contact-card.wa:hover {
+  border-color: rgba(37, 211, 102, 0.5);
+  box-shadow: 0 20px 60px var(--wa-glow);
+}
+
+.contact-card.wa::before {
+  background: linear-gradient(90deg, transparent, var(--wa), transparent);
+}
+
+.contact-label {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--cyan);
+}
+
+.contact-value {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-0);
+  word-break: break-word;
+  font-family: var(--font-mono);
+}
+
+.contact-sub {
+  font-size: 0.78rem;
+  color: var(--text-3);
+}
+
+.contact-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  background: linear-gradient(135deg, var(--pink-faint), var(--cyan-faint));
+  border: 1px solid var(--border-2);
+  box-shadow: 0 0 20px rgba(255, 46, 151, 0.15);
+}
+
+/* ==========================================================================
+   24 · CALLOUT
+   ========================================================================== */
+.callout {
+  padding: 24px 28px;
+  background: linear-gradient(135deg, rgba(255, 46, 151, 0.08), rgba(0, 240, 255, 0.05));
+  border: 1px solid var(--border-2);
+  border-left: 3px solid var(--pink);
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 40px rgba(255, 46, 151, 0.1);
+}
+
+.callout p {
+  margin: 0;
+  color: var(--text-1);
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+
+.callout strong { color: var(--pink-bright); }
+
+.callout-wa {
+  background: linear-gradient(135deg, rgba(37, 211, 102, 0.1), rgba(0, 240, 255, 0.05));
+  border-color: rgba(37, 211, 102, 0.4);
+  border-left-color: var(--wa);
+}
+
+.callout-wa strong { color: #4ade80; }
+
+.callout-agnes {
+  background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), rgba(255, 46, 151, 0.05));
+  border-color: var(--border-agnes);
+  border-left-color: var(--agnes);
+}
+
+.callout-agnes strong { color: var(--agnes-bright); }
+
+/* ==========================================================================
+   25 · TABLE
+   ========================================================================== */
+.table-wrap {
+  overflow-x: auto;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-0);
+  background: rgba(10, 0, 20, 0.7);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  min-width: 640px;
+}
+
+thead {
+  background: linear-gradient(180deg, rgba(255, 46, 151, 0.08), rgba(0, 240, 255, 0.04));
+}
+
+th {
+  text-align: left;
+  padding: 15px 20px;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--cyan-bright);
+  border-bottom: 1px solid var(--border-1);
+  white-space: nowrap;
+}
+
+td {
+  padding: 15px 20px;
+  border-bottom: 1px solid rgba(255, 46, 151, 0.08);
+  color: var(--text-2);
+  vertical-align: middle;
+}
+
+tbody tr { transition: background 0.2s var(--ease); }
+tbody tr:hover { background: rgba(255, 46, 151, 0.05); }
+tbody tr:last-child td { border-bottom: none; }
+td strong { color: var(--text-0); font-weight: 600; }
+
+/* ==========================================================================
+   26 · FOOTER
+   ========================================================================== */
+.footer {
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5));
+  border-top: 1px solid var(--border-0);
+  padding: 60px 0 30px;
+  margin-top: 60px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-col h4 {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--cyan);
+  margin-bottom: 18px;
+}
+
+.footer-col ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-col li,
+.footer-col a {
+  font-size: 0.85rem;
+  color: var(--text-2);
+}
+
+.footer-col a:hover { color: var(--pink-bright); }
+
+.footer-bottom {
+  padding-top: 24px;
+  border-top: 1px solid var(--border-0);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-3);
+}
+
+/* ==========================================================================
+   27 · FLOATING DOCK
+   ========================================================================== */
+.dock {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 800;
+}
+
+.dock-btn {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all 0.3s var(--ease-bounce);
+  position: relative;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+.dock-btn:hover {
+  transform: scale(1.15) translateY(-3px);
+  text-decoration: none;
+}
+
+.dock-wa {
+  background: linear-gradient(135deg, var(--wa), var(--wa-dark));
+  color: #fff;
+  box-shadow: 0 0 25px var(--wa-glow);
+}
+
+.dock-wa:hover { color: #fff; box-shadow: 0 0 45px var(--wa-glow); }
+
+.dock-wa::before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 2px solid rgba(37, 211, 102, 0.6);
+  animation: waPulse 2s infinite;
+}
+
+@keyframes waPulse {
+  0% { transform: scale(1); opacity: 0.8; }
+  100% { transform: scale(1.5); opacity: 0; }
+}
+
+.dock-agnes {
+  background: linear-gradient(135deg, var(--agnes), var(--pink));
+  color: #fff;
+  box-shadow: 0 0 25px var(--agnes-glow);
+}
+
+.dock-agnes:hover { color: #fff; box-shadow: 0 0 45px var(--agnes-glow); }
+
+.dock-call {
+  background: linear-gradient(135deg, var(--lime), var(--green));
+  color: #021a08;
+  box-shadow: 0 0 25px rgba(57, 255, 20, 0.5);
+}
+
+.dock-call:hover { color: #021a08; box-shadow: 0 0 40px rgba(57, 255, 20, 0.7); }
+
+.dock-mail {
+  background: linear-gradient(135deg, var(--pink), var(--magenta));
+  color: #fff;
+  box-shadow: 0 0 25px var(--pink-glow);
+}
+
+.dock-mail:hover { color: #fff; box-shadow: 0 0 40px var(--pink-glow); }
+
+.dock-top {
+  background: rgba(16, 0, 32, 0.9);
+  color: var(--cyan);
+  border: 1px solid var(--border-1);
+}
+
+.dock-top:hover { color: var(--cyan-bright); box-shadow: 0 0 25px var(--cyan-glow); }
+
+.dock-tip {
+  position: absolute;
+  right: calc(100% + 12px);
+  top: 50%;
+  transform: translateY(-50%) translateX(6px);
+  background: rgba(10, 0, 20, 0.98);
+  border: 1px solid var(--border-2);
+  color: var(--text-0);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 7px 12px;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.25s var(--ease);
+  box-shadow: 0 0 20px var(--pink-glow);
+}
+
+.dock-btn:hover .dock-tip {
+  opacity: 1;
+  transform: translateY(-50%) translateX(0);
+}
+
+/* ==========================================================================
+   28 · REVEAL ANIMATION
+   ========================================================================== */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s var(--ease), transform 0.8s var(--ease);
+}
+
+.reveal.in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-d1 { transition-delay: 0.1s; }
+.reveal-d2 { transition-delay: 0.2s; }
+.reveal-d3 { transition-delay: 0.3s; }
+.reveal-d4 { transition-delay: 0.4s; }
+.reveal-d5 { transition-delay: 0.5s; }
+
+/* ==========================================================================
+   29 · MOBILE MENU
+   ========================================================================== */
+.mobile-menu {
+  position: fixed;
+  top: var(--nav-h);
+  left: 0;
+  right: 0;
+  background: rgba(5, 0, 14, 0.98);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border-0);
+  padding: 20px;
+  transform: translateY(-110%);
+  transition: transform 0.4s var(--ease);
+  z-index: 890;
+  max-height: calc(100vh - var(--nav-h));
+  overflow-y: auto;
+}
+
+.mobile-menu.open { transform: translateY(0); }
+
+.mobile-menu a {
+  display: block;
+  padding: 14px 16px;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-2);
+  border-bottom: 1px solid rgba(255, 46, 151, 0.08);
+  border-radius: var(--radius-sm);
+}
+
+.mobile-menu a:hover,
+.mobile-menu a:active {
+  color: var(--cyan-bright);
+  background: var(--cyan-faint);
+  padding-left: 22px;
+  text-decoration: none;
+}
+
+/* ==========================================================================
+   30 · RESPONSIVE
+   ========================================================================== */
+@media (max-width: 1000px) {
+  .nav-links,
+  .btn-nav-phone { display: none; }
+  .burger { display: flex; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 700px) {
+  .section { padding: 60px 0; }
+  .hero { padding: 50px 0 60px; }
+  .timeline { padding-left: 36px; }
+  .tl-dot { left: -36px; width: 26px; height: 26px; font-size: 0.55rem; }
+  .timeline::before { left: 11px; }
+  .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+  .price-card { padding: 26px 22px; }
+  .dock { bottom: 16px; right: 16px; }
+  .dock-btn { width: 46px; height: 46px; font-size: 1.1rem; }
+  .dock-tip { display: none; }
+  .hero-ctas { flex-direction: column; }
+  .hero-ctas .btn { width: 100%; }
+  .container { padding: 0 18px; }
+  .case-metrics { grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+  .case-metric-val { font-size: 1.1rem; }
+  .agnes-shell { height: 500px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .reveal { opacity: 1 !important; transform: none !important; }
+}
+
+@media print {
+  .nav, .dock, .scroll-bar, .scanlines, .agnes-shell { display: none !important; }
+  body { background: #fff; color: #000; }
+  body::before, body::after { display: none; }
+}
+</style>
+</head>
+<body>
+
+<!-- ==========================================================================
+     SCROLL PROGRESS
+     ========================================================================== -->
+<div class="scroll-bar" id="scrollBar"></div>
+<div class="scanlines"></div>
+
+<!-- ==========================================================================
+     NAVIGATION
+     ========================================================================== -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand">
+      <div class="brand-mark">KI</div>
+      <span>KALKI<span style="color:var(--pink-bright)">.</span>INTELLIGENCE</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#agnes-section">Ask SIDDHI</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#cases">Case Studies</a></li>
+      <li><a href="#authority">Authority</a></li>
+      <li><a href="#roi">ROI Calc</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="tel:+916261031710" class="btn-nav-phone">📞 +91 62610 31710</a>
+      <a href="https://wa.me/916261031710?text=Hi%20Kalki-Intelligence%2C%20I%20want%20to%20discuss%20a%20growth%20proposal%20for%20my%20business." target="_blank" rel="noopener" class="btn-nav-wa">
+        <span>💬</span><span>WhatsApp</span>
+      </a>
+      <button class="burger" id="burger" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</nav>
+
+<!-- ==========================================================================
+     MOBILE MENU
+     ========================================================================== -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#agnes-section">🤖 Ask SIDDHI</a>
+  <a href="#services">Services & Tiers</a>
+  <a href="#cases">Case Studies</a>
+  <a href="#authority">Authority & Trust</a>
+  <a href="#roi">ROI Calculator</a>
+  <a href="#pricing">Pricing</a>
+  <a href="#process">Process</a>
+  <a href="#testi">Testimonials</a>
+  <a href="#faq">FAQ</a>
+  <a href="#contact">Contact</a>
+  <a href="https://wa.me/916261031710?text=Hi%20Kalki-Intelligence%2C%20I%20want%20to%20discuss%20a%20growth%20proposal." target="_blank" rel="noopener" style="color:#4ade80;border-bottom:none;">💬 WhatsApp Now</a>
+</div>
+
+<!-- ==========================================================================
+     HERO WITH AGNES EMBEDDED
+     ========================================================================== -->
+<header class="hero" id="top">
+  <div class="hero-orb orb-pink"></div>
+  <div class="hero-orb orb-cyan"></div>
+  <div class="hero-orb orb-agnes"></div>
+
+  <div class="container">
+    <div class="hero-grid">
+      <!-- LEFT: Pitch -->
+      <div class="hero-copy">
+        <div class="hero-badge reveal">
+          <span class="dot"></span>
+          <span>Growth Proposal · 2026 · Powered by SIDDHI AI</span>
+        </div>
+        <h1 class="reveal reveal-d1">
+          <span class="gradient-text">Dominate</span> the AI-Search Era.<br />
+          Rank. Get Cited. <span class="cyber-cyan">Convert.</span>
+        </h1>
+        <p class="hero-lede reveal reveal-d2">
+          We engineer <strong style="color:var(--pink-bright)">SEO, AEO, GEO, Web Development, AI Bots, and Paid Ads</strong> as one unified revenue system. Every deliverable is tied to a measurable business outcome — not vanity metrics. Built for Indian & global brands across astrology, wellness, D2C, B2B services, healthcare, real estate, and SaaS.
+        </p>
+        <div class="hero-ctas reveal reveal-d3">
+          <a href="#agnes-section" class="btn btn-agnes btn-lg">
+            <span>🤖</span> Ask SIDDHI Anything
+          </a>
+          <a href="https://wa.me/916261031710?text=Hi%20Kalki-Intelligence%2C%20I%20just%20saw%20your%20proposal.%20Let's%20talk%20about%20my%20business%20growth." target="_blank" rel="noopener" class="btn btn-wa btn-lg">
+            <span>💬</span> Start on WhatsApp
+          </a>
+        </div>
+        <div class="hero-stats reveal reveal-d4">
+          <div class="hero-stat">
+            <div class="hero-stat-label">Clients Served</div>
+            <div class="hero-stat-value cyber-pink" data-count="5000" data-suffix="+">0</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-label">Avg. Traffic Uplift</div>
+            <div class="hero-stat-value cyber-cyan" data-count="340" data-suffix="%">0%</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-label">Avg. ROI</div>
+            <div class="hero-stat-value cyber-pink" data-count="12" data-suffix="x">0x</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-label">Countries Served</div>
+            <div class="hero-stat-value cyber-cyan" data-count="18" data-suffix="+">0</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: Agnes Chat -->
+      <div class="hero-agnes reveal reveal-d2" id="agnes-section">
+        <div class="agnes-shell" id="agnesShell">
+          <div class="agnes-header">
+            <div class="agnes-avatar">A</div>
+            <div class="agnes-id">
+              <div class="agnes-name">
+                Agnes
+                <span class="tag-agnes">AI Strategist</span>
+              </div>
+              <div class="agnes-status">Online · Reads every section</div>
+            </div>
+            <div class="agnes-actions">
+              <button class="agnes-icon-btn" id="agnesClear" title="Clear chat">⟲</button>
+            </div>
+          </div>
+
+          <div class="agnes-body" id="agnesBody">
+            <!-- Initial bot message injected via JS -->
+          </div>
+
+          <div class="agnes-suggestions" id="agnesSuggestions">
+            <button class="suggestion-chip" data-q="What services do you offer?">What services?</button>
+            <button class="suggestion-chip" data-q="Show me the pricing tiers">Pricing tiers</button>
+            <button class="suggestion-chip" data-q="How does GEO work?">How does GEO work?</button>
+            <button class="suggestion-chip" data-q="Show me case studies">Case studies</button>
+            <button class="suggestion-chip" data-q="What is your ROI guarantee?">ROI guarantee?</button>
+            <button class="suggestion-chip" data-q="Do you build mobile apps?">Mobile apps?</button>
+            <button class="suggestion-chip" data-q="What is AEO?">What is AEO?</button>
+            <button class="suggestion-chip" data-q="Tell me about AI bots">AI bots?</button>
+            <button class="suggestion-chip" data-q="How do I get started?">How to start?</button>
+          </div>
+
+          <div class="agnes-footer">
+            <div class="agnes-input-wrap">
+              <textarea
+                id="agnesInput"
+                class="agnes-input"
+                placeholder="Ask Agnes about services, pricing, ROI, tech stack..."
+                rows="1"
+                aria-label="Message Agnes"
+              ></textarea>
+            </div>
+            <button class="agnes-send" id="agnesSend" aria-label="Send">➤</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ==========================================================================
+     TRUST / AUTHORITY
+     ========================================================================== -->
+<section class="section section-tight" id="authority">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="label">// TRUST_AND_AUTHORITY</span>
+      <h2 style="margin-top:14px;">Certified. Verified. <span class="cyber-pink">Battle-Tested.</span></h2>
+      <p style="font-size:1.05rem;margin-top:14px;">Kalki-Intelligence operates with full compliance, verified process, and transparent reporting. Here's what backs every engagement.</p>
+    </div>
+    <div class="auth-grid">
+      <div class="auth reveal"><div class="auth-icon">🏆</div><div class="auth-name">5,000+ Clients</div><div class="auth-sub">Global Since 2019</div></div>
+      <div class="auth reveal reveal-d1"><div class="auth-icon">🔒</div><div class="auth-name">GST + MSME</div><div class="auth-sub">Registered & Compliant</div></div>
+      <div class="auth reveal reveal-d2"><div class="auth-icon">🤖</div><div class="auth-name">AI-First Studio</div><div class="auth-sub">AEO · GEO Specialists</div></div>
+      <div class="auth reveal reveal-d3"><div class="auth-icon">⚡</div><div class="auth-name">48-Hr Kickoff</div><div class="auth-sub">No Onboarding Lag</div></div>
+      <div class="auth reveal reveal-d4"><div class="auth-icon">📊</div><div class="auth-name">Live Dashboards</div><div class="auth-sub">Weekly Reporting</div></div>
+      <div class="auth reveal reveal-d5"><div class="auth-icon">🛡️</div><div class="auth-name">100% Ownership</div><div class="auth-sub">No Lock-In Assets</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     SERVICES WITH TIERS
+     ========================================================================== -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="label">// FULL_SERVICE_SUITE</span>
+      <h2 style="margin-top:14px;">Six Systems. Three Tiers Each. <span class="cyber-cyan">One Revenue Engine.</span></h2>
+      <p style="font-size:1.05rem;margin-top:14px;">Pick your weapon. Scale when you're ready. Every tier compounds with the others — or runs standalone.</p>
+    </div>
+
+    <div class="tabs reveal">
+      <button class="tab active" data-tab="seo">🔍 SEO</button>
+      <button class="tab" data-tab="aeo">🎙️ AEO</button>
+      <button class="tab" data-tab="geo">🤖 GEO</button>
+      <button class="tab" data-tab="web">💻 Web Dev</button>
+      <button class="tab" data-tab="ai">🧠 AI Bots</button>
+      <button class="tab" data-tab="ads">📈 Paid Ads</button>
+    </div>
+
+    <!-- SEO -->
+    <div class="tab-panel active" id="panel-seo">
+      <div class="tier-grid">
+        <div class="tier reveal">
+          <div class="tier-name">// TIER_01</div>
+          <h3>SEO Starter</h3>
+          <div class="tier-price"><span class="cur">₹</span>15,000<span class="per">/mo</span></div>
+          <div class="tier-sub">FOR LOCAL & SOLO BRANDS</div>
+          <ul class="tier-features">
+            <li>On-page SEO for 10 pages</li>
+            <li>Google Business Profile optimization</li>
+            <li>20 keyword tracking</li>
+            <li>5 quality backlinks/month</li>
+            <li>Monthly performance report</li>
+          </ul>
+          <div class="tier-cta"><a href="https://wa.me/916261031710?text=Hi%2C%20interested%20in%20SEO%20Starter%20(₹15K%2Fmo)." target="_blank" rel="noopener" class="btn btn-cyan btn-full">💬 Enquire</a></div>
+        </div>
+        <div class="tier featured reveal reveal-d1">
+          <span class="tier-badge">POPULAR</span>
+          <div class="tier-name">// TIER_02</div>
+          <h3>SEO Growth</h3>
+          <div class="tier-price"><span class="cur">₹</span>30,000<span class="per">/mo</span></div>
+          <div class="tier-sub">FOR SCALING BUSINESSES</div>
+          <ul class="tier-features">
+            <li>Everything in Starter +</li>
+            <li>50 keyword domination</li>
+            <li>15 high-authority backlinks/month</li>
+            <li>Technical SEO audit + fixes</li>
+            <li>Content strategy + 4 blogs/month</li>
+            <li>Competitor gap analysis</li>
+            <li>Bi-weekly reporting call</li>
+          </ul>
+          <div class="tier-cta"><a href="https://wa.me/916261031710?text=Hi%2C%20interested%20in%20SEO%20Growth%20(₹30K%2Fmo)." target="_blank" rel="noopener" class="btn btn-wa btn-full">💬 Enquire</a></div>
+        </div>
+        <div class="tier reveal reveal-d2">
+          <div class="tier-name">// TIER_03</div>
+          <h3>SEO Domination</h3>
+          <div class="tier-price"><span class="cur">₹</span>75,000<span class="per">/mo</span></div>
+          <div class="tier-sub">FOR MARKET LEADERS</div>
+          <ul class="tier-features">
+            <li>Everything in Growth +</li>
+            <li>Unlimited keyword targeting</li>
+            <li>40+ premium backlinks/month</li>
+            <li>Digital PR & HARO outreach</li>
+            <li>Custom data studies (2/quarter)</li>
+            <li>Dedicated SEO manager</li>
+            <li>Weekly reporting + Slack</li>
+          </ul>
+          <div class="tier-cta"><a href="https://wa.me/916261031710?text=Hi%2C%20interested%20in%20SEO%20Domination%20(₹75K%2Fmo)." target="_blank" rel="noopener" class="btn btn-cyan btn-full">💬 Enquire</a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- AEO -->
+    <div class="tab-panel" id="panel-aeo">
+      <div class="tier-grid">
+        <div class="tier reveal">
+          <div class="tier-name">// TIER_01</div>
+          <h3>AEO Starter</h3>
+          <div class="tier-price"><span class="cur">₹</span>20,000<span class="per">/mo</span></div>
+          <div class="tier-sub">VOICE & SNIPPET READY</div>
+          <ul class="tier-features">
+            <li>FAQ schema on key pages</li>
+            <li>10 question-based content hubs</li>
+            <li>Google Featured Snippet targeting</li>
+            <li>Voice search optimization</li>
+            <li>Snippet win tracking</li>
+          </ul>
+          <div class="tier-cta"><a href="https://wa.me/916261031710?text=Hi%2C%20interested%20in%20AEO%20Starter%20(₹20K%2Fmo)." target="_blank" rel="noopener" class="btn btn-cyan btn-full">💬 Enquire</a></div>
+        </div>
+        <div class="tier featured reveal reveal-d1">
+          <span class="tier-badge">POPULAR</span>
+          <div class="tier-name">// TIER_02</div>
+          <h3>AEO Growth</h3>
+          <div class="tier-price"><span class="cur">₹</span>40,000<span class="per">/mo</span></div>
+          <div class="tier-sub">SNIPPET DOMINATION</div>
+          <ul class="tier-features">
+            <li>Everything in Starter +</li>
+            <li>50 FAQ hubs + schema markup</li>
+            <li>People Also Ask domination</li>
+            <li>HowTo + Q&A schema</li>
+            <li>Voice-first content calendar</li>
+            <li>Monthly AEO ranking report</li>
+          </ul>
+          <div class="tier-cta"><a href="https://wa.me/916261031710?text=Hi%2C%20interested%20in%20AEO%20Growth%20(₹40K%2Fmo)." target="_blank" rel="noopener" class="btn btn-wa btn-full">💬 Enquire</a></div>
+        </div>
+        <div class="tier reveal reveal-d2">
+          <div class="tier-name">// TIER_03</div>
+          <h3>AEO Elite</h3>
+          <div class="tier-price"><span class="cur">₹</span>80,000<span class="per">/mo</span></div>
+          <div class="tier-sub">ZERO-CLICK AUTHORITY</div>
+          <ul class="tier-features">
+            <li>Everything in Growth +</li>
+            <li>Full site schema architecture</li>
+            <li>Entity-based content model</li>
+            <li>Siri/Alexa/Google Assistant tuning</li>
+            <li>Position Zero campaign (20+ targets)</li>
+            <li>Dedicated AEO strategist</li>
+          </ul>
+          <div class="tier-cta"><a href="https://wa.me/916261031710?text=Hi%2C%20interested%20in%20AEO%20Elite%20(₹80K%2Fmo)." target="_blank" rel="noopener" class="btn btn-cyan btn-full">💬 Enquire</a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GEO -->
+    <div class="tab-panel" id="panel-geo">
+      <div class="tier-grid">
+        <div class="tier reveal">
+          <div class="tier-name">// TIER_01</div>
+          <h3>GEO Starter</h3>
+          <div class="tier-price"><span class="cur">₹</span>25,000<span class="per">/mo</span></div>
+          <div class="tier-sub">GET ON AI'S RADAR</div>
+          <ul class="tier-features">
+            <li>AI visibility baseline audit</li>
+            <li>20-prompt tracking (ChatGPT, Gemini, Perplexity)</li>
+            <li>LLM-friendly content structure</li>
+            <li>Structured data + schema</li>
+            <li>Monthly Share of Model report</li>
+          </ul>
+          <div class="tier-cta"><a href="https://wa.me/916261031710?text=Hi%2C%20interested%20in%20GEO%20Starter%20(₹25K%2Fmo)." target="_blank" rel="noopener" class="btn btn-cyan btn-full">💬 Enquire</a></div>
+        </div>
+        <div class="tier featured reveal reveal-d1">
+          <span class="tier-badge">POPULAR</span>
+          <div class="tier-name">// TIER_02</div>
+          <h3>GEO Growth</h3>
+          <div class="tier-price"><span class="cur">₹</span>50,000<span class="per">/mo</span></div>
+          <div class="tier-sub">AI CITATION ENGINE</div>
+          <ul class="tier-features">
+            <li>Everything in Starter +</li>
+            <li>50-prompt tracking bank</li>
+            <li>LLM seeding across 4 engines</li>
+            <li>Wikidata + Knowledge Panel setup</li>
+            <li>Source-specific optimization</li>
+            <li>Competitor SoM benchmarking</li>
+          </ul>
+          <div class="tier-cta"><a href="https://wa.me/916261031710?text=Hi%2C%20interested%20in%20GEO%20Growth%20(₹50K%2Fmo)." target="_blank" rel="noopener" class="btn btn-wa btn-full">💬 Enquire</a></div>
+        </div>
+        <div class="tier reveal reveal-d2">
+          <div class="tier-name">// TIER_03</div>
+          <h3>GEO Elite</h3>
+          <div class="tier-price"><span class="cur">₹</span>1,00,000<span class="per">/mo</span></div>
+          <div class="tier-sub">AI CATEGORY LEADER</div>
+          <ul class="tier-features">
+            <li>Everything in Growth +</li>
+            <li>200+ prompt monitoring</li>
+            <li>LLM-native content engine</li>
+            <li>Reddit + Quora citation plays</li>
+            <li>Weekly SoM tracking</li>
+            <li>Entity authority domination</li>
+            <li>Dedicated GEO strategist</li>
+          </ul>
+          <div class="tier-cta"><a href="https://wa.me/916261031710?text=Hi%2C%20interested%20in%20GEO%20Elite%20(₹1L%2Fmo)." target="_blank" rel="noopener" class="btn btn-cyan btn-full">💬 Enquire</a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- WEB DEV -->
+    <div class="tab-panel" id="panel-web">
+      <div class="tier-grid">
+        <div class="tier reveal">
+          <div class="tier-name">// TIER_01</div>
+          <h3>Web Launch</h3>
+          <div class="tier-price"><span class="cur">₹</span>35,000<span class="per">one-time</span></div>
+          <div class="tier-sub">5-PAGE PROFESSIONAL SITE</div>
+          <ul class="tier-features">
+            <li>5-page responsive website</li>
+            <li>Mobile-first design</li>
+            <li>Basic SEO setup</li>
+            <li>Contact form + WhatsApp link</li>
+            <li>2 rounds of revisions</li>
+          </ul>
+          <div class="tier-cta"><a href="https://wa.me/916261031710?text=Hi%2C%20interested%20in%20Web%20Launch%20(₹35K)." target="_blank" rel="noopener" class="btn btn-cyan btn-full">💬 Enquire</a></div>
+        </div>
+        <div class="tier featured reveal reveal-d1">
+          <span class="tier-badge">POPULAR</span>
+          <div class="tier-name">// TIER_02</div>
+          <h3>Web Growth</h3>
+          <div class="tier-price"><span class="cur">₹</span>1,20,000<span class="per">one-time</span></div>
+          <div class="tier-sub">BUSINESS + BOOKING SYSTEM</div>
+          <ul class="tier-features">
+            <li>Up to 15 pages</li>
+            <li>Custom UI/UX design</li>
+            <li>Online booking system</li>
+            <li>Payment gateway integration</li>
+            <li>Admin dashboard</li>
+            <li>Advanced SEO + schema</li>
+            <li>Blog + CMS setup</li>
+          </ul>
+          <div class="tier-cta"><a href="https://wa.me/916261031710?text=Hi%2C%20interested%20in%20Web%20Growth%20(₹1.2L)." target="_blank" rel="noopener" class="btn btn-wa btn-full">💬 Enquire</a></div>
+        </div>
+        <div class="tier reveal reveal-d2">
+          <div class="tier-name">// TIER_03</div>
+          <h3>Web Enterprise</h3>
+          <div class="tier-price"><span class="cur">₹</span>3,50,000<span class="per">+ one-time</span></div>
+          <div class="tier-sub">APP + LMS + CUSTOM PLATFORM</div>
+          <ul class="tier-features">
+            <li>Unlimited pages + custom features</li>
+            <li>Android + iOS mobile app</li>
+            <li>LMS / course dashboard (live + prerecorded)</li>
+            <li>AI chatbot integration</li>
+            <li>Subscription + CRM systems</li>
+            <li>Multi-language support</li>
+            <li>Dedicated dev team</li>
+          </ul>
+          <div class="tier-cta"><a href="https://wa.me/916261031710?text=Hi%2C%20interested%20in%20Web%20Enterprise%20(₹3.5L%2B)." target="_blank" rel="noopener" class="btn btn-cyan btn-full">💬 Enquire</a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- AI BOTS -->
+    <div class="tab-panel" id="panel-ai">
+      <div class="tier-grid">
+        <div class="tier reveal">
+          <div class="tier-name">// TIER_01</div>
+          <h3>AI Bot Starter</h3>
+          <div class="tier-price"><span class="cur">₹</span>12,000<span class="per">/mo</span></div>
+          <div class="tier-sub">24/7 FAQ HANDLING</div>
+          <ul class="tier-features">
+            <li>WhatsApp AI bot</li>
+            <li>Website chat widget</li>
+            <li>FAQ auto-responses</li>
+            <li>Lead capture forms</li>
+            <li>Basic analytics</li>
+          </ul>
+          <div class="tier-cta"><a href="https://wa.me/916261031710?text=Hi%2C%20interested%20in%20AI%20Bot%20Starter%20(₹12K%2Fmo)." target="_blank" rel="noopener" class="btn btn-cyan btn-full">💬 Enquire</a></div>
+        </div>
+        <div class="tier featured reveal reveal-d1">
+          <span class="tier-badge">POPULAR</span>
+          <div class="tier-name">// TIER_02</div>
+          <h3>AI Bot Growth</h3>
+          <div class="tier-price"><span class="cur">₹</span>25,000<span class="per">/mo</span></div>
+          <div class="tier-sub">SALES + BOOKING AUTOMATION</div>
+          <ul class="tier-features">
+            <li>Everything in Starter +</li>
+            <li>Appointment booking bot</li>
+            <li>Payment collection bot</li>
+            <li>CRM integration</li>
+            <li>Multi-language (Hindi + English)</li>
+            <li>Weekly bot optimization</li>
+          </ul>
+          <div class="tier-cta"><a href="https://wa.me/916261031710?text=Hi%2C%20interested%20in%20AI%20Bot%20Growth%20(₹25K%2Fmo)." target="_blank" rel="noopener" class="btn btn-wa btn-full">💬 Enquire</a></div>
+        </div>
+        <div class="tier reveal reveal-d2">
+          <div class="tier-name">// TIER_03</div>
+          <h3>AI Bot Elite</h3>
+          <div class="tier-price"><span class="cur">₹</span>60,000<span class="per">/mo</span></div>
+          <div class="tier-sub">FULL CONVERSATIONAL CRM</div>
+          <ul class="tier-features">
+            <li>Everything in Growth +</li>
+            <li>Custom LLM fine-tuned on your brand</li>
+            <li>Voice bot + IVR system</li>
+            <li>Omnichannel (WA, IG, FB, Web, Email)</li>
+            <li>Retention + win-back campaigns</li>
+            <li>Revenue attribution dashboard</li>
+          </ul>
+          <div class="tier-cta"><a href="https://wa.me/916261031710?text=Hi%2C%20interested%20in%20AI%20Bot%20Elite%20(₹60K%2Fmo)." target="_blank" rel="noopener" class="btn btn-cyan btn-full">💬 Enquire</a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ADS -->
+    <div class="tab-panel" id="panel-ads">
+      <div class="tier-grid">
+        <div class="tier reveal">
+          <div class="tier-name">// TIER_01</div>
+          <h3>Ads Starter</h3>
+          <div class="tier-price"><span class="cur">₹</span>15,000<span class="per">/mo + ad spend</span></div>
+          <div class="tier-sub">SINGLE CHANNEL</div>
+          <ul class="tier-features">
+            <li>Google OR Meta Ads</li>
+            <li>Campaign setup + optimization</li>
+            <li>2 ad creatives/month</li>
+            <li>Conversion tracking</li>
+            <li>Monthly report</li>
+          </ul>
+          <div class="tier-cta"><a href="https://wa.me/916261031710?text=Hi%2C%20interested%20in%20Ads%20Starter%20(₹15K%2Fmo)." target="_blank" rel="noopener" class="btn btn-cyan btn-full">💬 Enquire</a></div>
+        </div>
+        <div class="tier featured reveal reveal-d1">
+          <span class="tier-badge">POPULAR</span>
+          <div class="tier-name">// TIER_02</div>
+          <h3>Ads Growth</h3>
+          <div class="tier-price"><span class="cur">₹</span>30,000<span class="per">/mo + ad spend</span></div>
+          <div class="tier-sub">MULTI-CHANNEL FUNNEL</div>
+          <ul class="tier-features">
+            <li>Google + Meta + YouTube</li>
+            <li>Full funnel strategy</li>
+            <li>Retargeting campaigns</li>
+            <li>6 ad creatives/month</li>
+            <li>Landing page optimization</li>
+            <li>Bi-weekly reporting</li>
+          </ul>
+          <div class="tier-cta"><a href="https://wa.me/916261031710?text=Hi%2C%20interested%20in%20Ads%20Growth%20(₹30K%2Fmo)." target="_blank" rel="noopener" class="btn btn-wa btn-full">💬 Enquire</a></div>
+        </div>
+        <div class="tier reveal reveal-d2">
+          <div class="tier-name">// TIER_03</div>
+          <h3>Ads Elite</h3>
+          <div class="tier-price"><span class="cur">₹</span>70,000<span class="per">/mo + ad spend</span></div>
+          <div class="tier-sub">PERFORMANCE DOMINATION</div>
+          <ul class="tier-features">
+            <li>All platforms + programmatic</li>
+            <li>AI-driven bid optimization</li>
+            <li>15+ creatives/month</li>
+            <li>Full CRO program</li>
+            <li>Attribution modeling</li>
+            <li>Weekly war-room calls</li>
+          </ul>
+          <div class="tier-cta"><a href="https://wa.me/916261031710?text=Hi%2C%20interested%20in%20Ads%20Elite%20(₹70K%2Fmo)." target="_blank" rel="noopener" class="btn btn-cyan btn-full">💬 Enquire</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     CASE STUDIES
+     ========================================================================== -->
+<section class="section" id="cases">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="label">// PROVEN_RESULTS</span>
+      <h2 style="margin-top:14px;">Real Projects. <span class="cyber-pink">Real Revenue.</span></h2>
+      <p style="font-size:1.05rem;margin-top:14px;">Six representative engagements across verticals. Anonymized where required by NDA. Metrics verified against client analytics.</p>
+    </div>
+
+    <div class="case-grid">
+      <div class="case reveal">
+        <div class="case-head"><span class="case-cat">Astrology · SEO + GEO</span><span class="tag tag-green">+420%</span></div>
+        <h3 class="case-title">Delhi Astrologer — Top 3 Ranking</h3>
+        <p class="case-desc">Moved from page 8 to top 3 for "best astrologer in Delhi" in 5 months. Now cited by ChatGPT for 8 of 20 tested prompts.</p>
+        <div class="case-metrics">
+          <div class="case-metric"><div class="case-metric-val">420%</div><div class="case-metric-lbl">Traffic</div></div>
+          <div class="case-metric"><div class="case-metric-val">3.1x</div><div class="case-metric-lbl">Bookings</div></div>
+          <div class="case-metric"><div class="case-metric-val">15%</div><div class="case-metric-lbl">AI SoM</div></div>
+        </div>
+      </div>
+
+      <div class="case reveal reveal-d1">
+        <div class="case-head"><span class="case-cat">E-commerce · Web + Ads</span><span class="tag tag-green">+₹18L</span></div>
+        <h3 class="case-title">D2C Skincare — Store Rebuild</h3>
+        <p class="case-desc">Rebuilt store with commission-free checkout + Meta ads funnel. Added ₹18L in tracked monthly revenue within 90 days.</p>
+        <div class="case-metrics">
+          <div class="case-metric"><div class="case-metric-val">₹18L</div><div class="case-metric-lbl">New MRR</div></div>
+          <div class="case-metric"><div class="case-metric-val">6.4x</div><div class="case-metric-lbl">ROAS</div></div>
+          <div class="case-metric"><div class="case-metric-val">-62%</div><div class="case-metric-lbl">Ad CPC</div></div>
+        </div>
+      </div>
+
+      <div class="case reveal reveal-d2">
+        <div class="case-head"><span class="case-cat">Healthcare · Web + AI Bot</span><span class="tag tag-green">+312%</span></div>
+        <h3 class="case-title">Mumbai Clinic — AI Booking</h3>
+        <p class="case-desc">Launched AI WhatsApp bot for appointment booking + automated reminders. No-shows dropped 47%, new patient volume tripled.</p>
+        <div class="case-metrics">
+          <div class="case-metric"><div class="case-metric-val">312%</div><div class="case-metric-lbl">Bookings</div></div>
+          <div class="case-metric"><div class="case-metric-val">-47%</div><div class="case-metric-lbl">No-Shows</div></div>
+          <div class="case-metric"><div class="case-metric-val">24/7</div><div class="case-metric-lbl">Coverage</div></div>
+        </div>
+      </div>
+
+      <div class="case reveal reveal-d3">
+        <div class="case-head"><span class="case-cat">Real Estate · SEO + AEO</span><span class="tag tag-green">+240%</span></div>
+        <h3 class="case-title">Gurgaon Realty — Snippet Wins</h3>
+        <p class="case-desc">Captured 34 Featured Snippets + 12 voice search answers for "3BHK in Gurgaon" cluster. Qualified lead volume grew 240%.</p>
+        <div class="case-metrics">
+          <div class="case-metric"><div class="case-metric-val">34</div><div class="case-metric-lbl">Snippets</div></div>
+          <div class="case-metric"><div class="case-metric-val">240%</div><div class="case-metric-lbl">Leads</div></div>
+          <div class="case-metric"><div class="case-metric-val">-38%</div><div class="case-metric-lbl">CPL</div></div>
+        </div>
+      </div>
+
+      <div class="case reveal reveal-d4">
+        <div class="case-head"><span class="case-cat">SaaS · GEO + Content</span><span class="tag tag-green">7 AI Engines</span></div>
+        <h3 class="case-title">B2B SaaS — AI Citation Leader</h3>
+        <p class="case-desc">Engineered LLM-native content + Wikidata entity. Now recommended by ChatGPT, Gemini, Perplexity, and Claude for its category.</p>
+        <div class="case-metrics">
+          <div class="case-metric"><div class="case-metric-val">7</div><div class="case-metric-lbl">AI Engines</div></div>
+          <div class="case-metric"><div class="case-metric-val">28%</div><div class="case-metric-lbl">Share of Model</div></div>
+          <div class="case-metric"><div class="case-metric-val">+165%</div><div class="case-metric-lbl">Demo Signups</div></div>
+        </div>
+      </div>
+
+      <div class="case reveal reveal-d5">
+        <div class="case-head"><span class="case-cat">Wellness · Full Stack</span><span class="tag tag-green">+510%</span></div>
+        <h3 class="case-title">Yoga Studio — Full Ecosystem</h3>
+        <p class="case-desc">Website + LMS + app + AI bot + ads. Built a complete course ecosystem for live & prerecorded classes. Revenue grew 510%.</p>
+        <div class="case-metrics">
+          <div class="case-metric"><div class="case-metric-val">510%</div><div class="case-metric-lbl">Revenue</div></div>
+          <div class="case-metric"><div class="case-metric-val">1,200+</div><div class="case-metric-lbl">Students</div></div>
+          <div class="case-metric"><div class="case-metric-val">4.9★</div><div class="case-metric-lbl">App Rating</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     ROI CALCULATOR
+     ========================================================================== -->
+<section class="section" id="roi">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="label">// ROI_CALCULATOR</span>
+      <h2 style="margin-top:14px;">What Could <span class="cyber-cyan">₹30K/Month</span> Return You?</h2>
+      <p style="font-size:1.05rem;margin-top:14px;">Move the sliders. See realistic projections based on our verified client averages. No fluff — just math.</p>
+    </div>
+
+    <div class="roi-wrap">
+      <div class="roi-inputs reveal">
+        <div class="roi-input">
+          <label>Monthly Website Visitors <span class="val" id="visVal">10,000</span></label>
+          <input type="range" id="visitors" min="500" max="200000" step="500" value="10000" />
+        </div>
+        <div class="roi-input">
+          <label>Current Conversion Rate <span class="val" id="cvVal">1.5%</span></label>
+          <input type="range" id="conv" min="0.2" max="10" step="0.1" value="1.5" />
+        </div>
+        <div class="roi-input">
+          <label>Average Order / Client Value (₹) <span class="val" id="aovVal">5,000</span></label>
+          <input type="range" id="aov" min="500" max="200000" step="500" value="5000" />
+        </div>
+        <div class="roi-input">
+          <label>Monthly Ad / SEO Budget (₹) <span class="val" id="budgetVal">30,000</span></label>
+          <input type="range" id="budget" min="10000" max="300000" step="5000" value="30000" />
+        </div>
+        <div class="callout">
+          <p><strong>Assumptions:</strong> Traffic uplift 340% over 6 months (verified avg). Conversion uplift 65% from better UX + AI bot. Applied over 6-month engagement window with monthly compounding.</p>
+        </div>
+      </div>
+
+      <div class="roi-output reveal reveal-d1">
+        <div class="roi-result">
+          <div class="roi-result-label">Projected Monthly Revenue (After 6 Months)</div>
+          <div class="roi-result-value" id="roiRevenue">₹0</div>
+        </div>
+        <div class="roi-result">
+          <div class="roi-result-label">Monthly Uplift vs. Today</div>
+          <div class="roi-result-value green" id="roiUplift">+₹0</div>
+        </div>
+        <div class="roi-result">
+          <div class="roi-result-label">6-Month Net Gain (After Investment)</div>
+          <div class="roi-result-value cyan" id="roiNet">₹0</div>
+        </div>
+        <div class="roi-result">
+          <div class="roi-result-label">Return Multiple on ₹1.8L Investment</div>
+          <div class="roi-result-value" id="roiMultiple">0x</div>
+        </div>
+        <a href="https://wa.me/916261031710?text=Hi%2C%20I%20used%20your%20ROI%20calculator.%20Let's%20talk%20about%20my%20numbers." target="_blank" rel="noopener" class="btn btn-wa btn-full" style="margin-top:12px;">
+          💬 Discuss My Numbers on WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     PRICING BUNDLES
+     ========================================================================== -->
+<section class="section" id="pricing">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="label">// BUNDLE_PRICING</span>
+      <h2 style="margin-top:14px;">Full-Stack <span class="cyber-pink">Growth Bundles</span></h2>
+      <p style="font-size:1.05rem;margin-top:14px;">Best value when services combine. Each bundle is a complete growth system — not a laundry list of tasks.</p>
+    </div>
+
+    <div class="grid-3">
+      <div class="price-card reveal">
+        <span class="tag tag-cyan">STARTER BUNDLE</span>
+        <div class="price-amount"><span class="cur">₹</span>35,000<span class="per">/mo</span></div>
+        <div class="price-period">// SEO + AEO + AI BOT · FOR SOLO & LOCAL BRANDS</div>
+        <ul class="price-features">
+          <li>SEO Starter (10 pages + GBP)</li>
+          <li>AEO Starter (10 FAQ hubs)</li>
+          <li>AI Bot Starter (WhatsApp)</li>
+          <li>Monthly performance report</li>
+          <li>30-min strategy call monthly</li>
+        </ul>
+        <div style="margin-top:22px;">
+          <a href="https://wa.me/916261031710?text=Hi%2C%20interested%20in%20Starter%20Bundle%20(₹35K%2Fmo)." target="_blank" rel="noopener" class="btn btn-cyan btn-full">💬 Enquire</a>
+        </div>
+      </div>
+
+      <div class="price-card featured reveal reveal-d1">
+        <span class="tag tag-pink">GROWTH BUNDLE · POPULAR</span>
+        <div class="price-amount"><span class="cur">₹</span>75,000<span class="per">/mo</span></div>
+        <div class="price-period">// SEO + AEO + GEO + AI BOT + ADS · FOR SCALING BRANDS</div>
+        <ul class="price-features">
+          <li>SEO Growth (50 keywords)</li>
+          <li>AEO Growth (50 FAQ hubs)</li>
+          <li>GEO Growth (AI citation engine)</li>
+          <li>AI Bot Growth (booking + payments)</li>
+          <li>Ads Growth (multi-channel)</li>
+          <li>Bi-weekly strategy calls</li>
+          <li>Dedicated account manager</li>
+        </ul>
+        <div style="margin-top:22px;">
+          <a href="https://wa.me/916261031710?text=Hi%2C%20interested%20in%20Growth%20Bundle%20(₹75K%2Fmo)." target="_blank" rel="noopener" class="btn btn-wa btn-full">💬 Enquire</a>
+        </div>
+      </div>
+
+      <div class="price-card reveal reveal-d2">
+        <span class="tag tag-amber">DOMINATION BUNDLE</span>
+        <div class="price-amount"><span class="cur">₹</span>1,80,000<span class="per">/mo</span></div>
+        <div class="price-period">// FULL STACK + WEB DEV + CUSTOM BUILDS · FOR MARKET LEADERS</div>
+        <ul class="price-features">
+          <li>SEO Domination (unlimited keywords)</li>
+          <li>AEO Elite (Position Zero)</li>
+          <li>GEO Elite (200+ prompts)</li>
+          <li>AI Bot Elite (custom LLM)</li>
+          <li>Ads Elite (full performance)</li>
+          <li>Web Enterprise (app + LMS)</li>
+          <li>Weekly war-room calls</li>
+          <li>Dedicated growth pod (3 specialists)</li>
+        </ul>
+        <div style="margin-top:22px;">
+          <a href="https://wa.me/916261031710?text=Hi%2C%20interested%20in%20Domination%20Bundle%20(₹1.8L%2Fmo)." target="_blank" rel="noopener" class="btn btn-cyan btn-full">💬 Enquire</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout callout-wa reveal" style="margin-top:32px;">
+      <p><strong>Custom quote needed?</strong> We build tailored scopes for enterprise, multi-location, and niche verticals. Send us your requirements on WhatsApp and we'll respond with a proposal within 24 hours.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     PROCESS / TIMELINE
+     ========================================================================== -->
+<section class="section" id="process">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="label">// HOW_WE_WORK</span>
+      <h2 style="margin-top:14px;">From Kickoff to <span class="cyber-cyan">Market Leader</span></h2>
+      <p style="font-size:1.05rem;margin-top:14px;">A structured 6-month engagement. Every phase compounds on the last.</p>
+    </div>
+
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <div class="tl-dot">01</div>
+        <div class="tl-phase">// WEEK_01 · DISCOVERY</div>
+        <h3 class="tl-title">Audit & Strategy Lock</h3>
+        <ul class="tl-list">
+          <li>Full technical + offsite audit</li>
+          <li>Competitor gap analysis</li>
+          <li>Baseline metrics snapshot</li>
+          <li>90-day priority roadmap</li>
+        </ul>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-dot">02</div>
+        <div class="tl-phase">// WEEK_02 · FOUNDATION</div>
+        <h3 class="tl-title">Infrastructure Build</h3>
+        <ul class="tl-list">
+          <li>Website / landing page redesign (if applicable)</li>
+          <li>Google Business Profile + directory setup</li>
+          <li>Schema markup deployment</li>
+          <li>AI bot + WhatsApp integration live</li>
+        </ul>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-dot">03</div>
+        <div class="tl-phase">// MONTH_02-03 · EXECUTION</div>
+        <h3 class="tl-title">Content & Authority Blitz</h3>
+        <ul class="tl-list">
+          <li>Publish 10+ AEO content hubs</li>
+          <li>Launch outreach campaigns</li>
+          <li>Begin review generation engine</li>
+          <li>LLM seeding across 4 engines</li>
+        </ul>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-dot">04</div>
+        <div class="tl-phase">// MONTH_04-05 · SCALE</div>
+        <h3 class="tl-title">Compound & Optimize</h3>
+        <ul class="tl-list">
+          <li>Scale what's working, kill what's not</li>
+          <li>Launch second data campaign</li>
+          <li>Ads funnel optimization</li>
+          <li>AI SoM benchmarking vs competitors</li>
+        </ul>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-dot">05</div>
+        <div class="tl-phase">// MONTH_06 · MEASURE</div>
+        <h3 class="tl-title">Report, Handover, Next Phase</h3>
+        <ul class="tl-list">
+          <li>6-month impact report</li>
+          <li>Full asset handover (100% ownership)</li>
+          <li>Next-quarter recommendations</li>
+          <li>Optional scale-up proposal</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     TESTIMONIALS
+     ========================================================================== -->
+<section class="section" id="testi">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="label">// CLIENT_VOICES</span>
+      <h2 style="margin-top:14px;">Words From <span class="cyber-pink">Operators</span></h2>
+      <p style="font-size:1.05rem;margin-top:14px;">Verified feedback from founders and marketing leads across our client base.</p>
+    </div>
+    <div class="testi-grid">
+      <div class="testi reveal">
+        <div class="testi-quote">"</div>
+        <p class="testi-text">We went from page 8 to page 1 for our main keyword in under 4 months. The GEO work got us cited by ChatGPT — something we didn't even know was possible. Worth every rupee.</p>
+        <div class="testi-author">
+          <div class="testi-avatar">R</div>
+          <div>
+            <div class="testi-name">Rohit S.</div>
+            <div class="testi-role">Founder · Astrology Platform</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi reveal reveal-d1">
+        <div class="testi-quote">"</div>
+        <p class="testi-text">The AI WhatsApp bot alone paid for itself in the first month. Bookings up 3x, no-shows down. Nikhil's team actually understands business, not just SEO jargon.</p>
+        <div class="testi-author">
+          <div class="testi-avatar">P</div>
+          <div>
+            <div class="testi-name">Dr. Priya M.</div>
+            <div class="testi-role">Clinic Owner · Mumbai</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi reveal reveal-d2">
+        <div class="testi-quote">"</div>
+        <p class="testi-text">We tried 3 agencies before Kalki. They were the first to show ROI in a dashboard we could actually trust. Now generating ₹18L/month in new revenue from their funnel.</p>
+        <div class="testi-author">
+          <div class="testi-avatar">A</div>
+          <div>
+            <div class="testi-name">Anita K.</div>
+            <div class="testi-role">D2C Founder · Skincare</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     FAQ
+     ========================================================================== -->
+<section class="section" id="faq">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="label">// FREQUENT_QUESTIONS</span>
+      <h2 style="margin-top:14px;">Answers Before You <span class="cyber-cyan">Commit</span></h2>
+    </div>
+    <div class="faq">
+      <div class="faq-item reveal">
+        <button class="faq-q">How long until I see results?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Most clients see measurable SEO movement in 60–90 days, meaningful traffic growth by month 4, and AI-citation shifts by month 3–5. Web development and AI bot projects show immediate operational impact within 2–3 weeks of launch. We share baseline + progress reports monthly so you never wonder "is this working?"</div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">Do I own the assets you build?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Yes. 100%. Every domain, website, content asset, backlink, schema, AI bot configuration, ad account, and dashboard is owned by you. We provide full handover documentation at the end of engagement. No lock-in. No proprietary dependencies. If you leave, you take everything with you.</div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">What's the minimum engagement?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">SEO, AEO, GEO, AI Bot, and Ads services are 6-month minimums — because that's the honest timeframe for compound growth. Web development is project-based (3–12 weeks depending on scope). We don't do month-to-month retainers because they don't produce real results. If a competitor promises fast month-to-month wins, ask them for the case studies.</div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">What makes AEO and GEO different from regular SEO?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">SEO ranks pages on Google. AEO (Answer Engine Optimization) wins Featured Snippets, "People Also Ask," and voice search answers. GEO (Generative Engine Optimization) makes your brand get cited inside AI-generated answers from ChatGPT, Gemini, Perplexity, and Google AI Overviews. In 2026, 60%+ of search journeys touch at least one AI-generated answer — brands without AEO/GEO are invisible to that audience.</div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">Can I combine services or start with just one?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Absolutely. Most clients start with one service (usually SEO or Web Dev), see results, then layer in others. Our bundles offer the best value, but every service can run standalone. We'll recommend the highest-impact starting point in your first call — even if it means selling you less.</div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">Do you work with businesses outside India?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Yes. We've worked with clients across USA, UK, UAE, Canada, Australia, Singapore, and Germany. Pricing in USD/GBP/AED is available on request. All services are delivered remotely with local-timezone calls for international clients.</div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">What happens if results don't come?<span class="faq-icon">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">We guarantee process, not magic. Every deliverable in your scope is executed on schedule with proof. If a specific metric (like "rank top 3 for keyword X") isn't hit by an agreed milestone, we continue optimization at no extra cost until it is. We've never had a client terminate for non-delivery — because we under-promise and over-deliver.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     CONTACT
+     ========================================================================== -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="label">// LET'S_TALK</span>
+      <h2 style="margin-top:14px;">Ready to Build Your <span class="cyber-pink">Unfair Advantage?</span></h2>
+      <p style="font-size:1.05rem;margin-top:14px;">One WhatsApp message is all it takes. We'll reply within 2 hours with next steps and a custom scope.</p>
+    </div>
+
+    <div class="contact-grid" style="margin-bottom:32px;">
+      <a href="https://wa.me/916261031710?text=Hi%20Kalki-Intelligence%2C%20I%20want%20to%20discuss%20a%20custom%20growth%20proposal%20for%20my%20business." target="_blank" rel="noopener" class="contact-card wa reveal">
+        <div class="contact-icon" style="background:linear-gradient(135deg,rgba(37,211,102,.2),rgba(18,140,126,.15));border-color:rgba(37,211,102,.4);">💬</div>
+        <div class="contact-label" style="color:#4ade80;">WHATSAPP (FASTEST)</div>
+        <div class="contact-value">+91 62610 31710</div>
+        <div class="contact-sub">Reply within 2 hours · 7 days a week</div>
+      </a>
+
+      <a href="tel:+916261031710" class="contact-card reveal reveal-d1">
+        <div class="contact-icon">📞</div>
+        <div class="contact-label">CALL NOW</div>
+        <div class="contact-value">+91 62610 31710</div>
+        <div class="contact-sub">Direct line to founder</div>
+      </a>
+
+      <a href="mailto:ceo@kalki-intelligence.in?subject=Custom%20Growth%20Proposal%20Request" class="contact-card reveal reveal-d2">
+        <div class="contact-icon">✉️</div>
+        <div class="contact-label">EMAIL CEO</div>
+        <div class="contact-value">ceo@kalki-intelligence.in</div>
+        <div class="contact-sub">Response within 12 hours</div>
+      </a>
+
+      <a href="https://kalki-intelligence.in" target="_blank" rel="noopener" class="contact-card reveal reveal-d3">
+        <div class="contact-icon">🌐</div>
+        <div class="contact-label">VISIT WEBSITE</div>
+        <div class="contact-value">kalki-intelligence.in</div>
+        <div class="contact-sub">Case studies & methodology</div>
+      </a>
+    </div>
+
+    <div class="card reveal" style="text-align:center;padding:36px;">
+      <div class="label" style="margin-bottom:16px;">// FINAL_CTA</div>
+      <h3 style="margin-bottom:12px;">Stop losing clients to better-marketed competitors.</h3>
+      <p style="max-width:600px;margin:0 auto 26px;">Every day you wait, your competitors are capturing the traffic, citations, and clients that should be yours. Let's fix that.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:14px;justify-content:center;">
+        <a href="https://wa.me/916261031710?text=Hi%2C%20I'm%20ready%20to%20start.%20Let's%20discuss%20my%20growth%20plan." target="_blank" rel="noopener" class="btn btn-wa btn-lg">💬 Start on WhatsApp</a>
+        <a href="tel:+916261031710" class="btn btn-green btn-lg">📞 Call Nikhil Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     FOOTER
+     ========================================================================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="brand" style="margin-bottom:18px;">
+          <div class="brand-mark">KI</div>
+          <span>KALKI<span style="color:var(--pink-bright)">.</span>INTEL</span>
+        </div>
+        <p style="font-size:.85rem;color:var(--text-2);max-width:320px;">Full-stack growth systems for the AI-search era. SEO · AEO · GEO · Web · AI · Ads — engineered for revenue, not vanity metrics. Powered by Agnes.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+916261031710">📞 +91 62610 31710</a></li>
+          <li><a href="mailto:ceo@kalki-intelligence.in">✉️ ceo@kalki-intelligence.in</a></li>
+          <li><a href="https://wa.me/916261031710" target="_blank" rel="noopener">💬 WhatsApp</a></li>
+          <li><a href="https://kalki-intelligence.in" target="_blank" rel="noopener">🌐 kalki-intelligence.in</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">SEO</a></li>
+          <li><a href="#services">AEO</a></li>
+          <li><a href="#services">GEO</a></li>
+          <li><a href="#services">Web Development</a></li>
+          <li><a href="#services">AI Bots</a></li>
+          <li><a href="#services">Paid Ads</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#cases">Case Studies</a></li>
+          <li><a href="#roi">ROI Calculator</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 KALKI-INTELLIGENCE · ALL RIGHTS RESERVED</span>
+      <span>UNIVERSAL PROPOSAL · POWERED BY AGNES AI · CUSTOM SCOPES AVAILABLE</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ==========================================================================
+     FLOATING DOCK
+     ========================================================================== -->
+<div class="dock">
+  <button class="dock-btn dock-agnes" id="dockAgnes" aria-label="Open Agnes">
+    🤖
+    <span class="dock-tip">Ask Agnes AI</span>
+  </button>
+  <a href="https://wa.me/916261031710?text=Hi%20Kalki-Intelligence%2C%20I%20want%20to%20discuss%20a%20growth%20proposal." target="_blank" rel="noopener" class="dock-btn dock-wa" aria-label="WhatsApp">
+    💬
+    <span class="dock-tip">WhatsApp: +91 62610 31710</span>
+  </a>
+  <a href="tel:+916261031710" class="dock-btn dock-call" aria-label="Call">
+    📞
+    <span class="dock-tip">Call +91 62610 31710</span>
+  </a>
+  <a href="mailto:ceo@kalki-intelligence.in" class="dock-btn dock-mail" aria-label="Email">
+    ✉️
+    <span class="dock-tip">ceo@kalki-intelligence.in</span>
+  </a>
+  <button class="dock-btn dock-top" id="backTop" aria-label="Back to top">
+    ↑
+    <span class="dock-tip">Back to top</span>
+  </button>
+</div>
+
+<script>
+/* ==========================================================================
+   KALKI-INTELLIGENCE · v7 · AGNES ENGINE
+   Full-page aware AI assistant.
+   ========================================================================== */
+
+(function () {
+  'use strict';
+
+  /* ======================================================================
+     00 · UTILITIES
+     ====================================================================== */
+  function $(sel, ctx) { return (ctx || document).querySelector(sel); }
+  function $$(sel, ctx) { return Array.prototype.slice.call((ctx || document).querySelectorAll(sel)); }
+
+  function escapeHTML(str) {
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
+  }
+
+  function formatINR(n) {
+    if (n >= 10000000) return '₹' + (n / 10000000).toFixed(2) + 'Cr';
+    if (n >= 100000) return '₹' + (n / 100000).toFixed(2) + 'L';
+    if (n >= 1000) return '₹' + (n / 1000).toFixed(1) + 'K';
+    return '₹' + Math.round(n);
+  }
+
+  function trimText(s) { return (s || '').replace(/\s+/g, ' ').trim(); }
+
+  /* ======================================================================
+     01 · AGNES · PAGE INDEXER
+     Reads the entire DOM, chunks it, and prepares it for retrieval.
+     ====================================================================== */
+  var AgnesIndex = {
+    chunks: [],
+    ready: false,
+
+    build: function () {
+      var chunks = [];
+      var SECTION_SELECTORS = [
+        { sel: 'header.hero', label: 'Hero / Overview' },
+        { sel: 'section#authority', label: 'Trust & Authority' },
+        { sel: 'section#services', label: 'Services' },
+        { sel: 'section#cases', label: 'Case Studies' },
+        { sel: 'section#roi', label: 'ROI Calculator' },
+        { sel: 'section#pricing', label: 'Pricing Bundles' },
+        { sel: 'section#process', label: 'Process' },
+        { sel: 'section#testi', label: 'Testimonials' },
+        { sel: 'section#faq', label: 'FAQ' },
+        { sel: 'section#contact', label: 'Contact' },
+        { sel: 'footer.footer', label: 'Footer' }
+      ];
+
+      SECTION_SELECTORS.forEach(function (map) {
+        var el = document.querySelector(map.sel);
+        if (!el) return;
+
+        // 1. Grab the section-wide text
+        var sectionText = trimText(el.innerText || el.textContent || '');
+        if (sectionText.length > 40) {
+          chunks.push({
+            label: map.label,
+            anchor: map.sel.split(' ').pop().replace('#', ''),
+            text: sectionText.slice(0, 1200),
+            type: 'section'
+          });
+        }
+
+        // 2. Grab individual tier cards
+        var tiers = el.querySelectorAll('.tier');
+        tiers.forEach(function (tier) {
+          var name = trimText((tier.querySelector('h3') || {}).innerText || '');
+          var price = trimText((tier.querySelector('.tier-price') || {}).innerText || '');
+          var sub = trimText((tier.querySelector('.tier-sub') || {}).innerText || '');
+          var features = Array.prototype.slice
+            .call(tier.querySelectorAll('.tier-features li'))
+            .map(function (li) { return trimText(li.innerText); })
+            .join(' · ');
+          var txt = 'Service: ' + name + '. Price: ' + price + '. ' + sub + '. Features: ' + features;
+          if (name) {
+            chunks.push({
+              label: name + ' — Tier',
+              anchor: 'services',
+              text: txt,
+              type: 'tier',
+              keywords: (name + ' ' + price + ' ' + sub + ' ' + features).toLowerCase()
+            });
+          }
+        });
+
+        // 3. Grab case study cards
+        var cases = el.querySelectorAll('.case');
+        cases.forEach(function (cs) {
+          var cat = trimText((cs.querySelector('.case-cat') || {}).innerText || '');
+          var title = trimText((cs.querySelector('.case-title') || {}).innerText || '');
+          var desc = trimText((cs.querySelector('.case-desc') || {}).innerText || '');
+          var metrics = Array.prototype.slice
+            .call(cs.querySelectorAll('.case-metric'))
+            .map(function (m) {
+              var v = trimText((m.querySelector('.case-metric-val') || {}).innerText || '');
+              var l = trimText((m.querySelector('.case-metric-lbl') || {}).innerText || '');
+              return v + ' ' + l;
+            })
+            .join(' · ');
+          var txt = 'Case Study — ' + title + '. Category: ' + cat + '. ' + desc + ' Metrics: ' + metrics;
+          if (title) {
+            chunks.push({
+              label: title,
+              anchor: 'cases',
+              text: txt,
+              type: 'case',
+              keywords: (title + ' ' + cat + ' ' + desc + ' ' + metrics).toLowerCase()
+            });
+          }
+        });
+
+        // 4. Grab FAQ items
+        var faqs = el.querySelectorAll('.faq-item');
+        faqs.forEach(function (item) {
+          var q = trimText((item.querySelector('.faq-q') || {}).innerText || '');
+          var a = trimText((item.querySelector('.faq-a-inner') || {}).innerText || '');
+          if (q && a) {
+            chunks.push({
+              label: q.replace(/\+\s*$/, '').trim(),
+              anchor: 'faq',
+              text: 'Q: ' + q.replace(/\+\s*$/, '').trim() + '\nA: ' + a,
+              type: 'faq',
+              keywords: (q + ' ' + a).toLowerCase()
+            });
+          }
+        });
+
+        // 5. Grab pricing bundle cards
+        var prices = el.querySelectorAll('.price-card');
+        prices.forEach(function (pc) {
+          var tag = trimText((pc.querySelector('.tag') || {}).innerText || '');
+          var amt = trimText((pc.querySelector('.price-amount') || {}).innerText || '');
+          var per = trimText((pc.querySelector('.price-period') || {}).innerText || '');
+          var feats = Array.prototype.slice
+            .call(pc.querySelectorAll('.price-features li'))
+            .map(function (li) { return trimText(li.innerText); })
+            .join(' · ');
+          var txt = 'Bundle: ' + tag + '. Price: ' + amt + '. ' + per + '. Includes: ' + feats;
+          if (tag) {
+            chunks.push({
+              label: tag + ' Bundle',
+              anchor: 'pricing',
+              text: txt,
+              type: 'bundle',
+              keywords: (tag + ' ' + amt + ' ' + per + ' ' + feats).toLowerCase()
+            });
+          }
+        });
+
+        // 6. Grab testimonial cards
+        var testis = el.querySelectorAll('.testi');
+        testis.forEach(function (t) {
+          var txt = trimText((t.querySelector('.testi-text') || {}).innerText || '');
+          var name = trimText((t.querySelector('.testi-name') || {}).innerText || '');
+          var role = trimText((t.querySelector('.testi-role') || {}).innerText || '');
+          if (txt) {
+            chunks.push({
+              label: 'Testimonial from ' + name,
+              anchor: 'testi',
+              text: 'Client: ' + name + ' (' + role + '). "' + txt + '"',
+              type: 'testimonial',
+              keywords: (txt + ' ' + name + ' ' + role).toLowerCase()
+            });
+          }
+        });
+
+        // 7. Grab timeline items
+        var tls = el.querySelectorAll('.tl-item');
+        tls.forEach(function (t) {
+          var phase = trimText((t.querySelector('.tl-phase') || {}).innerText || '');
+          var title = trimText((t.querySelector('.tl-title') || {}).innerText || '');
+          var items = Array.prototype.slice
+            .call(t.querySelectorAll('.tl-list li'))
+            .map(function (li) { return trimText(li.innerText); })
+            .join(' · ');
+          if (title) {
+            chunks.push({
+              label: 'Process: ' + title,
+              anchor: 'process',
+              text: phase + ' — ' + title + '. ' + items,
+              type: 'process',
+              keywords: (phase + ' ' + title + ' ' + items).toLowerCase()
+            });
+          }
+        });
+      });
+
+      this.chunks = chunks;
+      this.ready = true;
+      console.log('[Agnes] Indexed ' + chunks.length + ' knowledge chunks from the page.');
+    },
+
+    /* Find the best matching chunk for a query */
+    search: function (query, topK) {
+      topK = topK || 3;
+      var q = (query || '').toLowerCase().trim();
+      if (!q || !this.chunks.length) return [];
+
+      var qTokens = q.split(/[\s,?.!;:]+/).filter(function (t) { return t.length > 2; });
+
+      var scored = this.chunks.map(function (c) {
+        var haystack = (c.text + ' ' + (c.keywords || '') + ' ' + c.label).toLowerCase();
+        var score = 0;
+
+        // Exact phrase bonus
+        if (haystack.indexOf(q) !== -1) score += 50;
+
+        // Token overlap
+        qTokens.forEach(function (tok) {
+          if (haystack.indexOf(tok) !== -1) score += 6;
+          // Partial word boundary
+          var re = new RegExp('\\b' + tok.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\w*', 'i');
+          if (re.test(haystack)) score += 3;
+        });
+
+        // Type-based weighting
+        if (c.type === 'tier' && /\b(price|pricing|cost|tier|plan|service)\b/.test(q)) score += 8;
+        if (c.type === 'bundle' && /\b(bundle|package|combo)\b/.test(q)) score += 8;
+        if (c.type === 'faq' && /\b(how|what|why|when|do you|can i|is it)\b/.test(q)) score += 6;
+        if (c.type === 'case' && /\b(case|result|client|proof|example|portfolio)\b/.test(q)) score += 8;
+        if (c.type === 'process' && /\b(process|step|timeline|onboard|how long|when)\b/.test(q)) score += 8;
+        if (c.type === 'testimonial' && /\b(testimonial|review|feedback|client say)\b/.test(q)) score += 8;
+
+        // Negative: penalize massive section chunks for specific queries
+        if (c.type === 'section' && qTokens.length > 3) score -= 5;
+
+        return { chunk: c, score: score };
+      });
+
+      scored.sort(function (a, b) { return b.score - a.score; });
+      return scored
+        .filter(function (s) { return s.score > 2; })
+        .slice(0, topK)
+        .map(function (s) { return s.chunk; });
+    }
+  };
+
+  /* ======================================================================
+     02 · AGNES · INTENT LIBRARY
+     High-priority, hand-crafted responses.
+     ====================================================================== */
+  var AgnesIntents = [
+    {
+      id: 'greeting',
+      patterns: [/^(hi|hello|hey|yo|namaste|good (morning|afternoon|evening)|hii+|helo)/i],
+      reply: function () {
+        return "Namaste 🙏 I'm **Agnes** — your AI strategist for Kalki-Intelligence. I've read this entire proposal and can answer questions about **services, tiers, pricing, case studies, ROI, process, tech stack**, and **anything else** on this page.\n\nTry asking:\n• *What services do you offer?*\n• *Show me pricing tiers*\n• *How does GEO work?*\n• *Show me case studies*\n• *What's your ROI guarantee?*\n\nOr just tap a suggestion below. ⬇️";
+      }
+    },
+    {
+      id: 'identity',
+      patterns: [/\b(who are you|what are you|your name|about you|about agnes)\b/i],
+      reply: function () {
+        return "I'm **Agnes**, the AI strategist embedded in this proposal. I live in the hero section and have indexed every section on this page — services, tiers, pricing, case studies, FAQ, testimonials, process, and contact info.\n\nI'm built by **Kalki-Intelligence** to help you understand our offering quickly, honestly, and in depth. Ask me anything.";
+      }
+    },
+    {
+      id: 'capability',
+      patterns: [/\b(what can you do|your capabilities|help me|how can you help)\b/i],
+      reply: function () {
+        return "I can help you:\n• **Understand our services** — SEO, AEO, GEO, Web Dev, AI Bots, Ads\n• **Compare tiers** — Starter vs Growth vs Elite for each service\n• **Explain pricing** — individual services and bundled offers\n• **Walk through case studies** — with real metrics\n• **Estimate ROI** — based on your business numbers\n• **Clarify process** — the 6-month engagement flow\n• **Answer FAQs** — about ownership, timelines, minimums\n• **Connect you** — I can pre-fill a WhatsApp message\n\nJust ask in plain English. I read the whole page.";
+      }
+    },
+    {
+      id: 'services_overview',
+      patterns: [/\b(what services|all services|list.*services|offerings|what do you do|what do you offer)\b/i],
+      reply: function () {
+        return "We offer **6 core services**, each with 3 tiers (Starter · Growth · Elite):\n\n1. 🔍 **SEO** — from ₹15,000/mo\n2. 🎙️ **AEO** (Answer Engine Optimization) — from ₹20,000/mo\n3. 🤖 **GEO** (Generative Engine Optimization) — from ₹25,000/mo\n4. 💻 **Web Development** — from ₹35,000 one-time\n5. 🧠 **AI Bots** (WhatsApp + Web) — from ₹12,000/mo\n6. 📈 **Paid Ads** (Google + Meta + YouTube) — from ₹15,000/mo + ad spend\n\nWe also offer **3 bundle packages** (Starter ₹35K, Growth ₹75K, Domination ₹1.8L/mo) for maximum compounding. Want details on any specific service?";
+      }
+    },
+    {
+      id: 'pricing_overview',
+      patterns: [/\b(pricing|price|cost|how much|rates|charges|fees)\b/i],
+      reply: function () {
+        return "Our **transparent pricing** — no hidden fees:\n\n**Individual services (per month):**\n• SEO: ₹15K / ₹30K / ₹75K\n• AEO: ₹20K / ₹40K / ₹80K\n• GEO: ₹25K / ₹50K / ₹1L\n• AI Bots: ₹12K / ₹25K / ₹60K\n• Ads: ₹15K / ₹30K / ₹70K (+ ad spend)\n• Web Dev: ₹35K / ₹1.2L / ₹3.5L+ (one-time)\n\n**Bundle packages (best value):**\n• Starter Bundle — ₹35,000/mo\n• Growth Bundle — ₹75,000/mo ⭐ most popular\n• Domination Bundle — ₹1,80,000/mo\n\nAll prices in INR. USD/GBP/AED available on request. Which would you like to explore?";
+      }
+    },
+    {
+      id: 'contact',
+      patterns: [/\b(contact|reach out|get in touch|call|phone|email|whatsapp|talk to|speak to)\b/i],
+      reply: function () {
+        return "Here's how to reach us — fastest first:\n\n💬 **WhatsApp** (fastest, 2-hour reply): [+91 62610 31710](https://wa.me/916261031710)\n📞 **Call**: +91 62610 31710 (direct to founder)\n✉️ **Email**: ceo@kalki-intelligence.in (12-hour reply)\n🌐 **Website**: kalki-intelligence.in\n\nReady to talk? Tap a suggestion chip below, or type **\"WhatsApp\"** and I'll help you frame the first message.";
+      }
+    },
+    {
+      id: 'roi',
+      patterns: [/\b(roi|return|profit|guarantee|results|will it work|earn back)\b/i],
+      reply: function () {
+        return "**Our ROI guarantee** is process-based, not magic-based:\n\n• Every deliverable is executed on schedule with proof\n• If a **specific metric** (e.g. \"rank top 3 for keyword X\") isn't hit by an agreed milestone, we continue optimization at no extra cost until it is\n• We've never had a client terminate for non-delivery\n\n**What to expect:**\n• 340% avg. traffic uplift over 6 months (verified across clients)\n• 12x average ROI multiple\n• Real-time dashboards — no vanity metrics\n\nTry our **ROI Calculator** on this page to model your specific numbers. Or ask me \"How do I calculate my ROI?\"";
+      }
+    },
+    {
+      id: 'timeline',
+      patterns: [/\b(how long|timeline|when will|how soon|duration|kickoff|onboard)\b/i],
+      reply: function () {
+        return "**Realistic timelines:**\n\n• **SEO** — measurable movement in 60–90 days, meaningful growth by month 4\n• **AEO** — Featured Snippet wins in 4–8 weeks\n• **GEO** — AI citation shifts by month 3–5\n• **Web Dev** — live in 2–6 weeks (depending on scope)\n• **AI Bots** — deployed within 2–3 weeks\n• **Ads** — traffic from day 1, optimized CPI by week 3\n\nOur standard engagement is **6 months minimum** for retainers — because that's the honest timeframe for compound growth. Web Dev is project-based.";
+      }
+    },
+    {
+      id: 'ownership',
+      patterns: [/\b(own|ownership|assets|lock-?in|take with|belong)\b/i],
+      reply: function () {
+        return "**100% asset ownership.** Every single thing we build belongs to you:\n\n• Domains\n• Website + code\n• Content + blog posts\n• Backlinks + citations\n• Schema markup\n• AI bot configuration\n• Ad accounts\n• Dashboards + reporting\n• Any LLM fine-tuning data\n\nFull handover documentation at the end of engagement. **No lock-in. No proprietary dependencies.** If you leave, you take everything with you.";
+      }
+    },
+    {
+      id: 'geo_explained',
+      patterns: [/\b(what is geo|geo mean|generative engine|how does geo|geo work)\b/i],
+      reply: function () {
+        return "**GEO = Generative Engine Optimization.**\n\nIt's how you get your brand *cited inside AI-generated answers* — not just ranked on Google.\n\n**Why it matters:** When someone asks ChatGPT, Gemini, Perplexity, or Google AI Overviews *\"Who is the best X in Y?\"* — 91% of cited sources are third-party sites, not your own. GEO engineers those third-party signals so AI engines name *you*.\n\n**Our approach:**\n• LLM seeding across 4+ engines\n• Wikidata entity + Knowledge Panel\n• Structured data + schema\n• Reddit / Quora citation plays\n• Source-specific optimization\n• 50–200 prompt tracking\n\n**Results target:** 15%+ Share of Model within 6 months. Our SaaS case study hit 28% SoM and got cited by 7 AI engines.";
+      }
+    },
+    {
+      id: 'aeo_explained',
+      patterns: [/\b(what is aeo|aeo mean|answer engine|how does aeo)\b/i],
+      reply: function () {
+        return "**AEO = Answer Engine Optimization.**\n\nIt's the discipline of winning:\n• Google Featured Snippets (Position Zero)\n• \"People Also Ask\" boxes\n• Voice search answers (Siri, Alexa, Google Assistant)\n• FAQ rich results\n\n**Why it matters:** In 2026, 60%+ of search journeys end without a click. If your brand doesn't own the *answer*, you lose the impression entirely.\n\n**Our approach:**\n• FAQ + HowTo + Q&A schema\n• Question-based content hubs\n• People Also Ask tracking\n• Voice-first content calendar\n\n**Tiers:** ₹20K (Starter) / ₹40K (Growth) / ₹80K (Elite) per month.";
+      }
+    },
+    {
+      id: 'seo_explained',
+      patterns: [/\b(what is seo|seo mean|how does seo|traditional seo)\b/i],
+      reply: function () {
+        return "**SEO = Search Engine Optimization.** The foundation.\n\nWe handle:\n• On-page SEO (titles, meta, internal links)\n• Technical SEO (speed, schema, crawlability)\n• Off-page SEO (backlinks, digital PR, HARO)\n• Content strategy + publishing\n• Local SEO (Google Business Profile, citations)\n\n**Tiers:** ₹15K (Starter) / ₹30K (Growth) / ₹75K (Domination) per month.\n\nSEO is the bedrock — but on its own it's no longer enough. That's why we pair it with AEO and GEO in our bundles.";
+      }
+    },
+    {
+      id: 'web_dev',
+      patterns: [/\b(web ?dev|website|web development|build.*site|redesign|landing page)\b/i],
+      reply: function () {
+        return "**Web Development — 3 tiers:**\n\n🟢 **Web Launch (₹35,000 one-time)**\n5-page responsive site, mobile-first, basic SEO, contact + WhatsApp.\n\n⭐ **Web Growth (₹1,20,000 one-time)** — most popular\nUp to 15 pages, custom UI/UX, online booking system, payment gateway, admin dashboard, advanced SEO + schema, blog + CMS.\n\n🔴 **Web Enterprise (₹3,50,000+ one-time)**\nUnlimited pages + custom features, Android + iOS mobile app, LMS/course dashboard (live + prerecorded), AI chatbot integration, subscriptions + CRM, multi-language, dedicated dev team.\n\nTimeline: 2–12 weeks depending on tier. Want to talk scope?";
+      }
+    },
+    {
+      id: 'ai_bots',
+      patterns: [/\b(ai bot|chatbot|whatsapp bot|automation|bot)\b/i],
+      reply: function () {
+        return "**AI Bots — 3 tiers:**\n\n🟢 **AI Bot Starter (₹12,000/mo)**\nWhatsApp AI bot, website chat widget, FAQ auto-responses, lead capture.\n\n⭐ **AI Bot Growth (₹25,000/mo)** — most popular\nEverything in Starter + appointment booking, payment collection, CRM integration, Hindi + English support, weekly optimization.\n\n🔴 **AI Bot Elite (₹60,000/mo)**\nEverything in Growth + custom LLM fine-tuned on your brand, voice bot + IVR, omnichannel (WA/IG/FB/Web/Email), retention campaigns, revenue attribution dashboard.\n\n**Real result:** Mumbai clinic saw **+312% bookings** and **-47% no-shows** using our Growth tier.";
+      }
+    },
+    {
+      id: 'ads',
+      patterns: [/\b(ads|ppc|google ads|meta ads|facebook ads|paid)\b/i],
+      reply: function () {
+        return "**Paid Ads — 3 tiers (management fee + your ad spend):**\n\n🟢 **Ads Starter (₹15,000/mo)**\nGoogle OR Meta, campaign setup, 2 creatives/mo, conversion tracking.\n\n⭐ **Ads Growth (₹30,000/mo)** — most popular\nGoogle + Meta + YouTube, full funnel, retargeting, 6 creatives/mo, landing page optimization.\n\n🔴 **Ads Elite (₹70,000/mo)**\nAll platforms + programmatic, AI-driven bid optimization, 15+ creatives/mo, full CRO program, attribution modeling, weekly war-room calls.\n\n**Real result:** D2C skincare brand hit **6.4x ROAS** and added ₹18L/month in new revenue within 90 days.";
+      }
+    },
+    {
+      id: 'cases',
+      patterns: [/\b(case stud|examples|proof|results|portfolio|show me work|past clients)\b/i],
+      reply: function () {
+        return "**6 representative case studies** on this page:\n\n1. 🔮 **Delhi Astrologer** — +420% traffic, 3.1x bookings, 15% AI SoM\n2. 💄 **D2C Skincare** — ₹18L new MRR, 6.4x ROAS, -62% CPC\n3. 🏥 **Mumbai Clinic** — +312% bookings, -47% no-shows, 24/7 AI coverage\n4. 🏠 **Gurgaon Realty** — 34 Featured Snippets, +240% leads, -38% CPL\n5. 💻 **B2B SaaS** — Cited by 7 AI engines, 28% Share of Model, +165% demo signups\n6. 🧘 **Yoga Studio** — +510% revenue, 1,200+ students, 4.9★ app rating\n\nWhich vertical do you want to dig into? Or ask about your industry — I can tailor the answer.";
+      }
+    },
+    {
+      id: 'process',
+      patterns: [/\b(process|steps|how does it work|workflow|engagement|kickoff)\b/i],
+      reply: function () {
+        return "**Our 6-month engagement flow:**\n\n**Week 1 — Discovery**\nFull audit, competitor gap analysis, baseline metrics, 90-day roadmap.\n\n**Week 2 — Foundation**\nWebsite/landing page (if applicable), Google Business Profile, schema, AI bot + WhatsApp integration.\n\n**Months 2–3 — Execution**\n10+ AEO content hubs published, outreach campaigns, review generation engine, LLM seeding.\n\n**Months 4–5 — Scale**\nDouble down on winners, second data campaign, ads funnel optimization, AI SoM benchmarking.\n\n**Month 6 — Measure & Handover**\n6-month impact report, 100% asset handover, next-quarter recommendations.\n\nWant to see a specific phase in detail?";
+      }
+    },
+    {
+      id: 'faq_short',
+      patterns: [/\b(faq|common questions|frequently asked)\b/i],
+      reply: function () {
+        return "**Common questions — quick answers:**\n\n• **Timeline?** 60–90 days for SEO movement, 2–3 weeks for AI bots\n• **Asset ownership?** 100% yours — no lock-in\n• **Minimum engagement?** 6 months for retainers, project-based for web dev\n• **AEO vs GEO?** AEO = snippets/voice. GEO = AI citations\n• **Combine services?** Yes, or start with one\n• **International?** Yes, 18+ countries\n• **If results don't come?** We keep optimizing until they do\n\nWant me to expand any of these? Just type the question.";
+      }
+    },
+    {
+      id: 'bundle',
+      patterns: [/\b(bundle|package|combo|full stack|everything)\b/i],
+      reply: function () {
+        return "**3 bundle packages** — best value when services combine:\n\n🟢 **Starter Bundle — ₹35,000/mo**\nSEO Starter + AEO Starter + AI Bot Starter + monthly reporting\n\n⭐ **Growth Bundle — ₹75,000/mo** (most popular)\nSEO Growth + AEO Growth + GEO Growth + AI Bot Growth + Ads Growth + bi-weekly calls + dedicated AM\n\n🔴 **Domination Bundle — ₹1,80,000/mo**\nSEO Domination + AEO Elite + GEO Elite + AI Bot Elite + Ads Elite + Web Enterprise + weekly war-room + dedicated growth pod\n\nWhich one fits where you are right now?";
+      }
+    },
+    {
+      id: 'whatsapp_helper',
+      patterns: [/\b(whatsapp|send message|message them|how to message)\b/i],
+      reply: function () {
+        return "**Ready to message us? Here's a template you can copy-paste on WhatsApp:**\n\n> Hi Kalki-Intelligence 👋\n> \n> I saw your proposal. I'm interested in [SEO / AEO / GEO / Web Dev / AI Bots / Ads / a Bundle].\n> \n> My business: [what you do]\n> My goal: [more traffic / more leads / more bookings / more revenue]\n> Current situation: [rough monthly visitors / leads / revenue]\n> \n> Can we schedule a 15-min call?\n\nTap below to open WhatsApp with this pre-filled:\n\n[📲 Open WhatsApp →](https://wa.me/916261031710?text=Hi%20Kalki-Intelligence%2C%20I%20saw%20your%20proposal%20and%20I'm%20interested%20in%20discussing%20growth%20for%20my%20business.)";
+      }
+    },
+    {
+      id: 'thanks',
+      patterns: [/\b(thanks|thank you|thx|appreciate|nice|great|cool|awesome)\b/i],
+      reply: function () {
+        return "My pleasure! 🙏 If you want to go deeper on anything — services, pricing, ROI projections, tech stack — just ask. Or tap a suggestion chip.\n\nWhen you're ready to talk to a human, WhatsApp is the fastest route: **+91 62610 31710**.";
+      }
+    },
+    {
+      id: 'bye',
+      patterns: [/\b(bye|goodbye|see you|talk later|ok thanks)\b/i],
+      reply: function () {
+        return "Take care! 👋 I'll be right here if you come back with more questions. When you're ready:\n\n💬 **WhatsApp**: +91 62610 31710\n📞 **Call**: +91 62610 31710\n✉️ **Email**: ceo@kalki-intelligence.in";
+      }
+    }
+  ];
+
+  /* ======================================================================
+     03 · AGNES · RESPONSE ENGINE
+     ====================================================================== */
+  var AgnesEngine = {
+    respond: function (query) {
+      var q = (query || '').trim();
+      if (!q) {
+        return Promise.resolve(this.fallbackEmpty());
+      }
+
+      // 1. Try handcrafted intents
+      for (var i = 0; i < AgnesIntents.length; i++) {
+        var intent = AgnesIntents[i];
+        for (var j = 0; j < intent.patterns.length; j++) {
+          if (intent.patterns[j].test(q)) {
+            return Promise.resolve(intent.reply(q));
+          }
+        }
+      }
+
+      // 2. Try indexed page retrieval
+      var matches = AgnesIndex.search(q, 3);
+
+      if (matches.length > 0) {
+        return Promise.resolve(this.buildFromMatches(q, matches));
+      }
+
+      // 3. Smart fallback
+      return Promise.resolve(this.smartFallback(q));
+    },
+
+    buildFromMatches: function (q, matches) {
+      var primary = matches[0];
+      var extras = matches.slice(1);
+
+      var parts = [];
+      parts.push('**Here\'s what I found on that** (from the ' + primary.label + ' section):\n');
+      parts.push(primary.text);
+
+      if (extras.length) {
+        parts.push('\n**Related on this page:**');
+        extras.forEach(function (m) {
+          parts.push('• *' + m.label + '* — ' + m.text.slice(0, 180) + (m.text.length > 180 ? '…' : ''));
+        });
+      }
+
+      parts.push('\nWant me to expand on any of these? Or ask **"WhatsApp"** to connect with the team.');
+
+      return parts.join('\n');
+    },
+
+    fallbackEmpty: function () {
+      return "I didn't catch that — could you rephrase? Try asking about **services, pricing, case studies, ROI, process, or specific tiers**. Or tap a suggestion chip below.";
+    },
+
+    smartFallback: function (q) {
+      var ql = q.toLowerCase();
+
+      // Industry-specific tailoring
+      if (/\b(astrolog|psychic|tarot|healer|spiritual|jyotish|pandit|nadi|vastu|numerolog)\b/.test(ql)) {
+        return "**For astrology / spiritual businesses, we recommend:**\n\n• **GEO Growth (₹50K/mo)** — you're a prime AI-citation candidate. When someone asks ChatGPT *\"best astrologer in [city]\"*, you should be named.\n• **AEO Growth (₹40K/mo)** — capture \"best astrologer near me\" voice queries.\n• **AI Bot Growth (₹25K/mo)** — 24/7 booking handles the ~40% of leads that come after hours.\n• **Web Growth (₹1.2L)** — a premium site with online booking + payments.\n\n**Real case:** Our Delhi astrologer client went from page 8 to top 3 in 5 months, saw +420% traffic, and is now cited by ChatGPT for 8 of 20 tested prompts.\n\nWant the bundle price or a scoped proposal for your practice?";
+      }
+
+      if (/\b(restaurant|cafe|coffee|food|bakery|kitchen|dhaba)\b/.test(ql)) {
+        return "**For restaurants / cafes / food brands:**\n\n• **Local SEO (₹30K/mo)** — dominate \"best [cuisine] near me\" and Google Maps.\n• **Web Growth (₹1.2L)** — direct ordering + commission-free checkout (save 20–30% vs Swiggy/Zomato).\n• **AI Bot (₹25K/mo)** — 24/7 table bookings, order status, FAQ handling.\n• **Ads (₹30K/mo)** — footfall campaigns + retargeting.\n\n**Real case:** A Brooklyn cafe with 630 reviews wasn't capturing any of their local SEO traffic. Web + Local SEO changed that in 90 days.\n\nWant a scoped plan for your outlet?";
+      }
+
+      if (/\b(clinic|doctor|hospital|health|dental|medical|therapy|wellness)\b/.test(ql)) {
+        return "**For clinics / healthcare practices:**\n\n• **AI Bot Growth (₹25K/mo)** — appointment booking + automated reminders. **47% no-show reduction** typical.\n• **Local SEO (₹30K/mo)** — rank for \"[specialty] near me\" + Google Maps pack.\n• **Web Growth (₹1.2L)** — HIPAA-aware design, secure booking, patient portal.\n• **Ads Growth (₹30K/mo)** — patient acquisition funnels with conversion tracking.\n\n**Real case:** Mumbai clinic saw +312% bookings and -47% no-shows with our AI bot + Web combo.\n\nWhat specialty is your practice?";
+      }
+
+      if (/\b(ecommerce|e-commerce|online store|d2c|shopify|woocommerce|product)\b/.test(ql)) {
+        return "**For D2C / e-commerce brands:**\n\n• **Web Growth (₹1.2L)** — commission-free checkout, payment gateways, admin dashboard.\n• **Ads Growth (₹30K/mo)** — Meta + Google + YouTube full funnel.\n• **SEO Growth (₹30K/mo)** — category + product page domination.\n• **AI Bot (₹25K/mo)** — cart recovery, order tracking, upsell automation.\n\n**Real case:** A D2C skincare brand hit ₹18L new MRR at 6.4x ROAS with our Web + Ads stack.\n\nWhat's your product category?";
+      }
+
+      if (/\b(real estate|property|broker|builder|flat|apartment|bhk)\b/.test(ql)) {
+        return "**For real estate / property businesses:**\n\n• **SEO + AEO (₹30K + ₹40K/mo)** — rank for \"[property type] in [city]\" and capture voice searches.\n• **GEO (₹50K/mo)** — get cited by ChatGPT when someone asks about the market.\n• **Ads (₹30K/mo)** — lead-gen campaigns with WhatsApp integration.\n• **Web (₹1.2L)** — property listings portal with filters + lead forms.\n\n**Real case:** Gurgaon realty client captured **34 Featured Snippets**, driving +240% qualified leads.\n\nWhat market are you in?";
+      }
+
+      if (/\b(saas|software|b2b|app|platform|startup)\b/.test(ql)) {
+        return "**For SaaS / B2B tech:**\n\n• **GEO Elite (₹1L/mo)** — engineer AI citations across ChatGPT, Claude, Gemini, Perplexity. **28% SoM** is our benchmark.\n• **AEO Elite (₹80K/mo)** — dominate \"best [category] tool\" snippets.\n• **SEO Domination (₹75K/mo)** — long-tail + comparison content.\n• **AI Bot (₹25K/mo)** — demo booking + onboarding automation.\n\n**Real case:** B2B SaaS now cited by **7 AI engines** with +165% demo signups.\n\nWhat's your category?";
+      }
+
+      if (/\b(education|course|coaching|academy|tutor|school|training|institute)\b/.test(ql)) {
+        return "**For education / coaching brands:**\n\n• **Web Enterprise (₹3.5L+)** — LMS with live + prerecorded classes, student dashboard, mobile app.\n• **AI Bot Growth (₹25K/mo)** — admission queries, demo booking, fee reminders.\n• **SEO + AEO (₹70K/mo)** — rank for \"best [subject] course in [city]\" + voice.\n• **Ads (₹30K/mo)** — enrollment funnels.\n\n**Real case:** Yoga studio built a full LMS + app ecosystem — **+510% revenue**, 1,200+ students, 4.9★ app rating.\n\nWant me to spec out the LMS build?";
+      }
+
+      if (/\b(law|legal|advocate|attorney|ca|chartered|accountant|consultant)\b/.test(ql)) {
+        return "**For professional services (law / CA / consulting):**\n\n• **SEO Growth (₹30K/mo)** — authority content + high-intent keywords.\n• **AEO (₹40K/mo)** — own \"best [specialty] in [city]\" snippets.\n• **Web Growth (₹1.2L)** — professional site with secure consultation booking.\n• **AI Bot (₹25K/mo)** — intake form automation, FAQ handling, appointment scheduling.\n\nWhat's your practice area?";
+      }
+
+      // Generic smart fallback
+      var suggestions = [
+        '**Services** — SEO · AEO · GEO · Web · AI · Ads',
+        '**Pricing** — ₹15K to ₹1.8L/mo across tiers',
+        '**Case studies** — 6 verified projects',
+        '**ROI calculator** — model your numbers',
+        '**Process** — 6-month engagement flow',
+        '**Ownership** — 100% yours, no lock-in'
+      ];
+
+      return "I didn't find an exact match for *\"" + escapeHTML(q) + "\"* on this page — but I can point you to:\n\n" +
+        suggestions.map(function (s) { return '• ' + s; }).join('\n') +
+        "\n\nTry rephrasing, or type **\"WhatsApp\"** and I'll help you draft a message to the team directly.";
+    }
+  };
+
+  /* ======================================================================
+     04 · AGNES · CHAT UI CONTROLLER
+     ====================================================================== */
+  var AgnesUI = {
+    body: null,
+    input: null,
+    sendBtn: null,
+    clearBtn: null,
+    suggestions: null,
+    shell: null,
+    history: [],
+
+    init: function () {
+      this.body = document.getElementById('agnesBody');
+      this.input = document.getElementById('agnesInput');
+      this.sendBtn = document.getElementById('agnesSend');
+      this.clearBtn = document.getElementById('agnesClear');
+      this.suggestions = document.getElementById('agnesSuggestions');
+      this.shell = document.getElementById('agnesShell');
+
+      if (!this.body || !this.input || !this.sendBtn) return;
+
+      var self = this;
+
+      // Send handler
+      this.sendBtn.addEventListener('click', function () { self.handleSend(); });
+
+      // Enter to send (Shift+Enter = newline)
+      this.input.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' && !e.shiftKey) {
+          e.preventDefault();
+          self.handleSend();
+        }
+      });
+
+      // Auto-grow textarea
+      this.input.addEventListener('input', function () {
+        self.input.style.height = 'auto';
+        self.input.style.height = Math.min(self.input.scrollHeight, 100) + 'px';
+      });
+
+      // Suggestion chips
+      if (this.suggestions) {
+        this.suggestions.addEventListener('click', function (e) {
+          var chip = e.target.closest('.suggestion-chip');
+          if (chip) {
+            var q = chip.getAttribute('data-q') || chip.innerText;
+            self.input.value = q;
+            self.handleSend();
+          }
+        });
+      }
+
+      // Clear handler
+      if (this.clearBtn) {
+        this.clearBtn.addEventListener('click', function () {
+          self.history = [];
+          self.body.innerHTML = '';
+          self.greet(true);
+        });
+      }
+
+      // Initial greeting
+      this.greet(false);
+    },
+
+    greet: function (isReset) {
+      var greeting = isReset
+        ? "Fresh start! 🚀 Ask me anything about Kalki-Intelligence — services, pricing, case studies, ROI, or how we work.\n\nI read **the whole page** and can answer in depth."
+        : "Namaste 🙏 I'm **Agnes** — your AI strategist for **Kalki-Intelligence**.\n\nI've indexed every section on this page: services, tiers, pricing, case studies, ROI, process, testimonials, FAQ, and contact.\n\n**Ask me anything** — or tap a suggestion below. Try:\n• *What services do you offer?*\n• *Show me pricing tiers*\n• *How does GEO work?*\n• *Show me case studies*";
+
+      this.addBotMessage(greeting);
+    },
+
+    handleSend: function () {
+      var text = (this.input.value || '').trim();
+      if (!text) return;
+
+      this.addUserMessage(text);
+      this.input.value = '';
+      this.input.style.height = 'auto';
+
+      var self = this;
+      this.showTyping();
+
+      // Simulate "thinking" delay for realism, scaled to query length
+      var delay = Math.min(400 + text.length * 12, 1400);
+
+      setTimeout(function () {
+        self.hideTyping();
+        AgnesEngine.respond(text).then(function (reply) {
+          self.addBotMessage(reply);
+        }).catch(function () {
+          self.addBotMessage("Sorry, I hit a snag. Try rephrasing, or type **WhatsApp** to reach the team directly.");
+        });
+      }, delay);
+    },
+
+    addUserMessage: function (text) {
+      var el = document.createElement('div');
+      el.className = 'msg msg-user';
+      el.textContent = text;
+      this.body.appendChild(el);
+      this.history.push({ role: 'user', text: text });
+      this.scrollBottom();
+    },
+
+    addBotMessage: function (text) {
+      var el = document.createElement('div');
+      el.className = 'msg msg-bot';
+      el.innerHTML = this.renderMarkdown(text);
+      this.body.appendChild(el);
+      this.history.push({ role: 'bot', text: text });
+      this.scrollBottom();
+    },
+
+    showTyping: function () {
+      var el = document.createElement('div');
+      el.className = 'msg-typing';
+      el.id = 'agnesTyping';
+      el.innerHTML = '<span class="typing-dot"></span><span class="typing-dot"></span><span class="typing-dot"></span>';
+      this.body.appendChild(el);
+      this.scrollBottom();
+    },
+
+    hideTyping: function () {
+      var el = document.getElementById('agnesTyping');
+      if (el) el.remove();
+    },
+
+    scrollBottom: function () {
+      var self = this;
+      // Defer to ensure layout is updated
+      requestAnimationFrame(function () {
+        self.body.scrollTop = self.body.scrollHeight;
+      });
+    },
+
+    /* Minimal, safe markdown renderer */
+    renderMarkdown: function (text) {
+      var html = escapeHTML(text);
+
+      // Bold
+      html = html.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+      // Italic
+      html = html.replace(/(^|[^*])\*([^*\n]+)\*(?!\*)/g, '$1<em>$2</em>');
+      // Inline code
+      html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
+      // Links [text](url)
+      html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+      // Blockquote
+      html = html.replace(/^&gt;\s?(.*)$/gm, '<span style="display:block;padding-left:12px;border-left:2px solid var(--agnes);color:var(--text-3);margin:4px 0;">$1</span>');
+      // Bullet lists
+      var lines = html.split('\n');
+      var out = [];
+      var inList = false;
+      lines.forEach(function (line) {
+        var trimmed = line.trim();
+        if (/^[•\-*]\s+/.test(trimmed)) {
+          if (!inList) { out.push('<ul>'); inList = true; }
+          out.push('<li>' + trimmed.replace(/^[•\-*]\s+/, '') + '</li>');
+        } else {
+          if (inList) { out.push('</ul>'); inList = false; }
+          out.push(line);
+        }
+      });
+      if (inList) out.push('</ul>');
+      html = out.join('\n');
+
+      // Paragraphs / breaks
+      html = html.replace(/\n{2,}/g, '<br /><br />');
+      html = html.replace(/\n/g, '<br />');
+
+      return html;
+    }
+  };
+
+  /* ======================================================================
+     05 · SCROLL PROGRESS
+     ====================================================================== */
+  var scrollBar = document.getElementById('scrollBar');
+  var nav = document.getElementById('nav');
+
+  function updateScroll() {
+    var top = window.pageYOffset || document.documentElement.scrollTop;
+    var h = document.documentElement.scrollHeight - window.innerHeight;
+    var pct = h > 0 ? (top / h) * 100 : 0;
+    if (scrollBar) scrollBar.style.width = pct + '%';
+    if (nav) {
+      if (top > 20) nav.classList.add('scrolled');
+      else nav.classList.remove('scrolled');
+    }
+  }
+
+  window.addEventListener('scroll', updateScroll, { passive: true });
+
+  /* ======================================================================
+     06 · MOBILE MENU
+     ====================================================================== */
+  var burger = document.getElementById('burger');
+  var mobileMenu = document.getElementById('mobileMenu');
+
+  if (burger && mobileMenu) {
+    burger.addEventListener('click', function () {
+      mobileMenu.classList.toggle('open');
+    });
+    mobileMenu.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        mobileMenu.classList.remove('open');
+      });
+    });
+  }
+
+  /* ======================================================================
+     07 · BACK TO TOP + DOCK AGNES
+     ====================================================================== */
+  var backTop = document.getElementById('backTop');
+  if (backTop) {
+    backTop.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  var dockAgnes = document.getElementById('dockAgnes');
+  var agnesSection = document.getElementById('agnes-section');
+  if (dockAgnes && agnesSection) {
+    dockAgnes.addEventListener('click', function () {
+      agnesSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      // Focus input after scroll
+      setTimeout(function () {
+        var inp = document.getElementById('agnesInput');
+        if (inp) inp.focus();
+      }, 700);
+    });
+  }
+
+  /* ======================================================================
+     08 · REVEAL ON SCROLL
+     ====================================================================== */
+  function initReveals() {
+    var reveals = document.querySelectorAll('.reveal');
+    if (!('IntersectionObserver' in window)) {
+      reveals.forEach(function (el) { el.classList.add('in'); });
+      return;
+    }
+    var obs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in');
+          obs.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+    reveals.forEach(function (el) { obs.observe(el); });
+  }
+
+  /* ======================================================================
+     09 · METERS
+     ====================================================================== */
+  function initMeters() {
+    var meters = document.querySelectorAll('.meter-fill[data-w]');
+    if (!('IntersectionObserver' in window)) {
+      meters.forEach(function (el) { el.style.width = el.getAttribute('data-w') + '%'; });
+      return;
+    }
+    var obs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          var el = entry.target;
+          var w = el.getAttribute('data-w');
+          setTimeout(function () { el.style.width = w + '%'; }, 150);
+          obs.unobserve(el);
+        }
+      });
+    }, { threshold: 0.3 });
+    meters.forEach(function (el) { obs.observe(el); });
+  }
+
+  /* ======================================================================
+     10 · COUNTERS
+     ====================================================================== */
+  function initCounters() {
+    var counters = document.querySelectorAll('[data-count]');
+    if (!('IntersectionObserver' in window)) {
+      counters.forEach(function (el) {
+        el.textContent = el.getAttribute('data-count') + (el.getAttribute('data-suffix') || '');
+      });
+      return;
+    }
+    var obs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          var el = entry.target;
+          var target = parseFloat(el.getAttribute('data-count'));
+          var suffix = el.getAttribute('data-suffix') || '';
+          var duration = 1800;
+          var start = performance.now();
+          function tick(now) {
+            var t = Math.min((now - start) / duration, 1);
+            var eased = 1 - Math.pow(1 - t, 3);
+            var val = target * eased;
+            if (target >= 100 || Number.isInteger(target)) {
+              el.textContent = Math.floor(val) + suffix;
+            } else {
+              el.textContent = val.toFixed(1) + suffix;
+            }
+            if (t < 1) requestAnimationFrame(tick);
+            else el.textContent = target + suffix;
+          }
+          requestAnimationFrame(tick);
+          obs.unobserve(el);
+        }
+      });
+    }, { threshold: 0.4 });
+    counters.forEach(function (el) { obs.observe(el); });
+  }
+
+  /* ======================================================================
+     11 · TABS
+     ====================================================================== */
+  function initTabs() {
+    var tabs = document.querySelectorAll('.tab');
+    var panels = document.querySelectorAll('.tab-panel');
+    tabs.forEach(function (tab) {
+      tab.addEventListener('click', function () {
+        var target = tab.getAttribute('data-tab');
+        tabs.forEach(function (t) { t.classList.remove('active'); });
+        panels.forEach(function (p) { p.classList.remove('active'); });
+        tab.classList.add('active');
+        var panel = document.getElementById('panel-' + target);
+        if (panel) panel.classList.add('active');
+      });
+    });
+  }
+
+  /* ======================================================================
+     12 · FAQ ACCORDION
+     ====================================================================== */
+  function initFaq() {
+    document.querySelectorAll('.faq-q').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var item = btn.parentElement;
+        var wasOpen = item.classList.contains('open');
+        document.querySelectorAll('.faq-item').forEach(function (i) { i.classList.remove('open'); });
+        if (!wasOpen) item.classList.add('open');
+      });
+    });
+  }
+
+  /* ======================================================================
+     13 · ROI CALCULATOR
+     ====================================================================== */
+  function initROI() {
+    var vis = document.getElementById('visitors');
+    var conv = document.getElementById('conv');
+    var aov = document.getElementById('aov');
+    var budget = document.getElementById('budget');
+    if (!vis || !conv || !aov || !budget) return;
+
+    function update() {
+      var v = parseFloat(vis.value);
+      var c = parseFloat(conv.value);
+      var a = parseFloat(aov.value);
+      var b = parseFloat(budget.value);
+
+      document.getElementById('visVal').textContent = v.toLocaleString('en-IN');
+      document.getElementById('cvVal').textContent = c.toFixed(1) + '%';
+      document.getElementById('aovVal').textContent = a.toLocaleString('en-IN');
+      document.getElementById('budgetVal').textContent = b.toLocaleString('en-IN');
+
+      var currentRevenue = (v * (c / 100)) * a;
+      var newVisitors = v * 4.4;
+      var newConv = c * 1.65;
+      var projectedRevenue = (newVisitors * (newConv / 100)) * a;
+      var uplift = projectedRevenue - currentRevenue;
+      var investment = Math.max(b * 6, 180000);
+      var netGain = (uplift * 6) - investment;
+      var multiple = netGain / investment + 1;
+
+      document.getElementById('roiRevenue').textContent = formatINR(projectedRevenue);
+      document.getElementById('roiUplift').textContent = '+' + formatINR(uplift);
+      document.getElementById('roiNet').textContent = formatINR(netGain);
+      document.getElementById('roiMultiple').textContent = multiple.toFixed(1) + 'x';
+    }
+
+    [vis, conv, aov, budget].forEach(function (el) {
+      el.addEventListener('input', update);
+    });
+    update();
+  }
+
+  /* ======================================================================
+     14 · SMOOTH SCROLL FOR ANCHORS
+     ====================================================================== */
+  function initSmoothScroll() {
+    document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        var href = link.getAttribute('href');
+        if (!href || href === '#' || href.length < 2) return;
+        var target = document.querySelector(href);
+        if (target) {
+          e.preventDefault();
+          var offset = 80;
+          var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+          window.scrollTo({ top: top, behavior: 'smooth' });
+        }
+      });
+    });
+  }
+
+  /* ======================================================================
+     15 · CARD TILT
+     ====================================================================== */
+  function initTilt() {
+    if (window.matchMedia && window.matchMedia('(hover: none)').matches) return;
+    var cards = document.querySelectorAll('.stat-card, .auth');
+    cards.forEach(function (card) {
+      card.addEventListener('mousemove', function (e) {
+        var rect = card.getBoundingClientRect();
+        var x = (e.clientX - rect.left) / rect.width - 0.5;
+        var y = (e.clientY - rect.top) / rect.height - 0.5;
+        card.style.transform = 'perspective(900px) rotateX(' + (-y * 2) + 'deg) rotateY(' + (x * 2) + 'deg) translateY(-3px)';
+      });
+      card.addEventListener('mouseleave', function () {
+        card.style.transform = '';
+      });
+    });
+  }
+
+  /* ======================================================================
+     16 · KEYBOARD NAVIGATION
+     ====================================================================== */
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      if (mobileMenu) mobileMenu.classList.remove('open');
+    }
+    // Global shortcut: "/" focuses Agnes input
+    if (e.key === '/' && !isInputFocused()) {
+      e.preventDefault();
+      var agnesInput = document.getElementById('agnesInput');
+      if (agnesInput) {
+        agnesInput.focus();
+        agnesSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+  });
+
+  function isInputFocused() {
+    var el = document.activeElement;
+    return el && (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA' || el.isContentEditable);
+  }
+
+  /* ======================================================================
+     17 · INIT ALL
+     ====================================================================== */
+  function init() {
+    // Build Agnes index from live DOM (after all content is parsed)
+    AgnesIndex.build();
+
+    // Boot Agnes UI
+    AgnesUI.init();
+
+    // Page behaviors
+    initReveals();
+    initMeters();
+    initCounters();
+    initTabs();
+    initFaq();
+    initROI();
+    initSmoothScroll();
+    initTilt();
+    updateScroll();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+
+  /* ======================================================================
+     18 · CONSOLE BRANDING
+     ====================================================================== */
+  console.log('%cKALKI.INTELLIGENCE · v7', 'color:#ff2e97;font-weight:900;font-size:18px;text-shadow:0 0 20px #ff2e97;');
+  console.log('%cUniversal Proposal · Powered by Agnes AI', 'color:#c084fc;font-size:12px;');
+  console.log('%c💬 WhatsApp: +91 62610 31710 · ✉️ ceo@kalki-intelligence.in', 'color:#25D366;font-size:11px;');
+  console.log('%c🤖 Ask Agnes anything · Press "/" to focus', 'color:#00f0ff;font-size:11px;');
+
+})();
+</script>
+
+</body>
+</html>
